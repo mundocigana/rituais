@@ -1,0 +1,2541 @@
+{
+  "titulo": "Rituais Caseiros",
+  "subtitulo": "Guia Prático de Uso Pessoal — Mundo Cigana Tarot",
+  "versao": "Versão 1.0 · outubro de 2026",
+  "acesso": {
+    "url": "https://script.google.com/macros/s/AKfycbyjTeaWIsrqJiGcdoJ3DUusWChGlmTm9RoTWfACkhW4YgWX2Q0u9Ozf6keTzW9m8J0/exec",
+    "produto": "rituais",
+    "mensagem_compra": "Olá, Maria! Tenho interesse em adquirir o acesso ao guia de Rituais Caseiros.",
+    "mensagem_senha": "Olá, Maria! Esqueci a senha do guia de Rituais Caseiros. Meu e-mail é:"
+  },
+  "banhos_url": "https://mundocigana.github.io/banhos/",
+  "como_usar": "Este guia reúne 38 rituais caseiros, feitos com o que se encontra em casa, no supermercado ou numa casa de ervas: velas, carvão, sal, anil, alfazema, mel, frutas e grãos. Eles estão organizados por tipo e por finalidade. Leia o ritual inteiro antes de começar, confira os cuidados e, se tiver só alguns elementos em casa, use \"Tenho em casa\" para descobrir o que dá para fazer.",
+  "aviso_tradicao": "As associações apresentadas neste guia refletem a prática e a perspectiva da Maria, baseadas na tradição popular. São uma entre várias interpretações possíveis: referências simbólicas para orientar a sua intenção, e não efeitos comprovados ou garantidos.",
+  "aviso_curto": "As associações deste guia refletem a perspectiva da Maria e não são efeitos garantidos.",
+  "etica": "Todos os rituais deste guia são sobre você, a sua casa e as situações da sua vida. Nenhum deles serve para agir sobre a vontade, o sentimento ou a liberdade de outra pessoa.",
+  "fundamentos": {
+    "mod1": "Um ritual caseiro é um gesto simples feito com atenção e intenção. O que transforma acender uma vela ou limpar o chão em ritual é a presença: saber o que está fazendo, por que está fazendo e o que deseja. A regra de ouro continua a mesma do guia de banhos: a finalidade vem antes do material.",
+    "mod2": "Nas defumações e limpezas, a direção em que você caminha pela casa também comunica a intenção:",
+    "regras": [
+      {
+        "nivel": "Descarrego",
+        "texto": "Dos fundos da casa para a porta da frente. Simboliza levar para fora o que pesa. Use nas limpezas e proteções."
+      },
+      {
+        "nivel": "Atração",
+        "texto": "Da porta da frente para os fundos. Simboliza trazer para dentro o que é bom. Use na prosperidade, na harmonia e na abertura de caminhos."
+      },
+      {
+        "nivel": "Sequência",
+        "texto": "Depois de um descarrego, faça uma harmonização (no mesmo dia ou no dia seguinte): primeiro se limpa, depois se convida o que é bom."
+      }
+    ]
+  },
+  "como_fazer": [
+    {
+      "titulo": "Escolha o ritual",
+      "texto": "Comece pelo que você precisa agora: limpeza, proteção, prosperidade, caminhos, amor ou autoestima.",
+      "itens": [
+        "Use o menu por tipo ou por finalidade, ou a busca.",
+        "Se for sua primeira vez, comece por um ritual simples, como a Água de Alfazema no Chão ou a Vela de Agradecimento.",
+        "Leia o ritual inteiro antes, inclusive os cuidados."
+      ]
+    },
+    {
+      "titulo": "Separe os materiais",
+      "texto": "Reúna tudo antes de começar, para não interromper o ritual no meio.",
+      "itens": [
+        "Confira na Ficha dos Elementos onde encontrar cada item e o que usar se faltar algum.",
+        "Utensílios usados em rituais (copo, pires, borrifador, pano) podem ficar separados só para isso."
+      ]
+    },
+    {
+      "titulo": "Prepare o espaço",
+      "texto": "Um ritual pede um momento sem pressa.",
+      "itens": [
+        "Faça a limpeza comum antes das limpezas espirituais.",
+        "Silencie o celular e escolha um horário em que não vai ser interrompida.",
+        "Nas defumações e com velas, confira a ventilação e afaste o que pode pegar fogo."
+      ]
+    },
+    {
+      "titulo": "Firme a intenção",
+      "texto": "Cada ritual traz uma intenção sugerida. Você pode usá-la como está ou dizer com suas próprias palavras.",
+      "itens": [
+        "Diga em voz alta ou em pensamento, no começo e no fim do ritual.",
+        "Fale no presente, como se já estivesse acontecendo."
+      ]
+    },
+    {
+      "titulo": "Realize",
+      "texto": "Siga o passo a passo com calma e atenção.",
+      "itens": [
+        "Respeite a direção indicada nas limpezas e defumações.",
+        "Se algo der errado, como a vela apagar, não se preocupe: acenda de novo ou recomece com calma."
+      ]
+    },
+    {
+      "titulo": "Encerre e descarte",
+      "texto": "O fim do ritual também faz parte dele.",
+      "itens": [
+        "Siga a orientação de descarte de cada ritual.",
+        "Prefira a terra e o lixo orgânico. Nunca deixe plástico, vidro, comida ou cinzas quentes na rua, em rios ou na mata.",
+        "Lave e guarde os utensílios."
+      ]
+    },
+    {
+      "titulo": "Registre",
+      "texto": "Anotar ajuda a perceber o que funciona para você. Use o diário abaixo.",
+      "itens": []
+    }
+  ],
+  "diario": [
+    "Data, fase da lua e nome do ritual",
+    "Qual era a minha intenção?",
+    "Como me senti durante o ritual?",
+    "O que percebi nos dias seguintes?",
+    "Eu repetiria? O que mudaria?"
+  ],
+  "como_defumar": {
+    "intro": "A defumação é a queima de ervas, especiarias ou resinas sobre a brasa do carvão, levando a fumaça pela casa ou pelo corpo. É uma das práticas mais antigas de limpeza e proteção de ambientes.",
+    "passos": [
+      {
+        "titulo": "Separe o material",
+        "texto": "Defumador de metal com alça (ou uma panelinha velha de metal com cabo), carvão vegetal, pinça ou pegador, fósforo ou isqueiro e as ervas do ritual, bem secas."
+      },
+      {
+        "titulo": "Prepare a casa",
+        "texto": "Faça a limpeza comum antes. Abra janelas, portas internas e armários. Tire crianças, pets e pássaros dos cômodos por onde vai passar."
+      },
+      {
+        "titulo": "Acenda o carvão",
+        "texto": "Com o pegador, segure o carvão sobre a chama do fogão até ele começar a soltar faíscas ou ficar vermelho em um ponto. Coloque no defumador e espere de 5 a 10 minutos, até ficar coberto de uma camada cinza. Carvão em pastilha, de casa religiosa, acende mais rápido."
+      },
+      {
+        "titulo": "Coloque as ervas aos poucos",
+        "texto": "Uma pitada de cada vez. Muita erva de uma vez abafa a brasa e faz fumaça escura. Acrescente mais quando a fumaça diminuir."
+      },
+      {
+        "titulo": "Caminhe pela casa",
+        "texto": "Siga a direção indicada no ritual: dos fundos para a frente para limpar, da frente para os fundos para atrair. Passe pelos cantos, atrás das portas e dentro dos armários, com calma."
+      },
+      {
+        "titulo": "Encerre",
+        "texto": "Deixe o defumador num lugar seguro, sobre superfície que não queime, até a brasa apagar sozinha. Mantenha as janelas abertas por mais 15 minutos."
+      },
+      {
+        "titulo": "Descarte as cinzas",
+        "texto": "Espere esfriarem por completo (pode levar horas), molhe e descarte na terra de um jardim ou no lixo orgânico."
+      }
+    ],
+    "seguranca": [
+      "Carvão em brasa libera monóxido de carbono, um gás sem cheiro e perigoso: nunca defume em cômodo fechado e nunca deixe brasa acesa ao dormir.",
+      "Pássaros são muito sensíveis à fumaça: tire-os do ambiente.",
+      "Gestantes, bebês e pessoas com asma ou problemas respiratórios devem ficar longe da fumaça.",
+      "Confira se o local tem detector de fumaça ou alarme de incêndio antes de defumar.",
+      "Sem carvão? Use incenso em vareta das mesmas ervas, com os mesmos cuidados com fogo."
+    ]
+  },
+  "cores_velas": [
+    {
+      "cor": "Branca",
+      "hex": "#f4f1ea",
+      "texto": "Paz, proteção, pureza e anjo da guarda. Serve para qualquer intenção quando faltar a cor indicada."
+    },
+    {
+      "cor": "Amarela",
+      "hex": "#e8c547",
+      "texto": "Abertura de caminhos, oportunidades, alegria e estudos."
+    },
+    {
+      "cor": "Verde",
+      "hex": "#5f8f5a",
+      "texto": "Prosperidade, crescimento e renovação."
+    },
+    {
+      "cor": "Rosa",
+      "hex": "#e3a1b4",
+      "texto": "Amor-próprio, carinho, harmonia no lar e nas relações."
+    },
+    {
+      "cor": "Vermelha",
+      "hex": "#b23a3a",
+      "texto": "Força, coragem, paixão e vitalidade."
+    },
+    {
+      "cor": "Azul",
+      "hex": "#4f74a8",
+      "texto": "Tranquilidade, serenidade, proteção e boa comunicação."
+    },
+    {
+      "cor": "Lilás",
+      "hex": "#9a7bb5",
+      "texto": "Transformação, espiritualidade e encerramento de ciclos."
+    },
+    {
+      "cor": "Laranja",
+      "hex": "#e08a3c",
+      "texto": "Ânimo, sucesso, criatividade e entusiasmo."
+    }
+  ],
+  "luas": [
+    {
+      "fase": "Lua nova",
+      "texto": "Começos. Bom momento para intenções, planos e para limpar a casa para um novo ciclo."
+    },
+    {
+      "fase": "Lua crescente",
+      "texto": "Crescimento. Bom momento para rituais de prosperidade, caminhos e tudo o que se quer fazer crescer."
+    },
+    {
+      "fase": "Lua cheia",
+      "texto": "Plenitude. Bom momento para gratidão, amor, autoestima e para a água de lua cheia."
+    },
+    {
+      "fase": "Lua minguante",
+      "texto": "Encerramento. Bom momento para descarregos, limpezas e para soltar o que já não serve."
+    }
+  ],
+  "dias_semana": [
+    {
+      "dia": "Segunda-feira",
+      "texto": "Começos, caminhos e proteção."
+    },
+    {
+      "dia": "Quinta-feira",
+      "texto": "Prosperidade e conquistas."
+    },
+    {
+      "dia": "Sexta-feira",
+      "texto": "Amor, harmonia e afeto."
+    }
+  ],
+  "seguranca": [
+    {
+      "titulo": "Fogo e velas",
+      "texto": "Nunca deixe velas ou brasas acesas sozinhas, ao dormir ou perto de cortinas, papéis, plantas secas, crianças e pets. Use sempre pires ou castiçal sobre superfície firme e que não queime. Tenha água por perto."
+    },
+    {
+      "titulo": "Carvão e fumaça",
+      "texto": "Carvão em brasa libera monóxido de carbono. Defume sempre com janelas abertas, nunca em cômodo fechado. Gestantes, bebês, pessoas com asma e pássaros devem ficar longe da fumaça."
+    },
+    {
+      "titulo": "Crianças e animais",
+      "texto": "Guarde sal, anil, ervas, pimenta e potes de rituais fora do alcance de crianças e pets. Arruda, guiné e espada-de-são-jorge são tóxicas se ingeridas. Sal em excesso faz mal a animais."
+    },
+    {
+      "titulo": "Anil",
+      "texto": "O anil mancha rejunte, madeira, pedras porosas, tecidos e a pele. Use luvas e teste antes num canto escondido. Não ingerir."
+    },
+    {
+      "titulo": "Alimentos",
+      "texto": "Nos rituais com pão, frutas, mel e grãos, nunca deixe nada estragar ou mofar. Feche bem os potes para evitar formigas e insetos."
+    },
+    {
+      "titulo": "Nada para beber",
+      "texto": "Nenhuma água, mistura ou preparo deste guia é para beber."
+    },
+    {
+      "titulo": "Descarte responsável",
+      "texto": "Prefira a terra e o lixo orgânico. Nunca deixe plástico, vidro, comida ou cinzas quentes na rua, em rios, praças ou matas."
+    },
+    {
+      "titulo": "Ética",
+      "texto": "Os rituais deste guia são sobre você, a sua casa e as situações da sua vida. Nenhum deles serve para agir sobre a vontade, o sentimento ou a liberdade de outra pessoa."
+    },
+    {
+      "titulo": "Complemento, não substituto",
+      "texto": "Os rituais são uma prática espiritual e de autocuidado. As associações descritas aqui são simbólicas, não prometem resultados e não substituem tratamento médico ou psicológico."
+    }
+  ],
+  "glossario_intro": "Os termos abaixo estão explicados do jeito que são usados neste guia, dentro da perspectiva da Maria. Outras casas e tradições podem usá-los de forma diferente.",
+  "glossario": [
+    {
+      "termo": "Defumação",
+      "texto": "Queima de ervas, especiarias ou resinas sobre a brasa, levando a fumaça pela casa ou pelo corpo."
+    },
+    {
+      "termo": "Defumador",
+      "texto": "Recipiente de metal, com alça, que guarda a brasa durante a defumação. Também chamado de turíbulo."
+    },
+    {
+      "termo": "Brasa",
+      "texto": "O carvão aceso, sem chama, coberto de uma camada cinza. É sobre ela que se colocam as ervas."
+    },
+    {
+      "termo": "Descarrego",
+      "texto": "Limpeza que retira cargas densas. Nas defumações e limpezas, é feita dos fundos para a porta da frente."
+    },
+    {
+      "termo": "Atração",
+      "texto": "Ritual que convida o que é bom para dentro. Nas defumações e limpezas, é feito da porta para os fundos."
+    },
+    {
+      "termo": "Harmonização",
+      "texto": "Ritual suave que traz calma e equilíbrio, principalmente depois de um descarrego."
+    },
+    {
+      "termo": "Intenção",
+      "texto": "A frase que você diz ou mentaliza durante o ritual. É ela que dá direção ao gesto."
+    },
+    {
+      "termo": "Soleira",
+      "texto": "A faixa do piso logo na porta de entrada, a fronteira entre a casa e a rua."
+    },
+    {
+      "termo": "Patuá",
+      "texto": "Pequeno saquinho com ervas e elementos de proteção, levado junto ao corpo, na bolsa ou no bolso."
+    },
+    {
+      "termo": "Adoçamento",
+      "texto": "Ritual com mel ou açúcar para suavizar uma situação. Neste guia, sempre sobre situações, nunca sobre a vontade de alguém."
+    },
+    {
+      "termo": "Anil (wagi)",
+      "texto": "Pigmento azul em pedra ou em pó, usado na tradição para limpeza e proteção de ambientes."
+    },
+    {
+      "termo": "Pão bento",
+      "texto": "Pão abençoado distribuído em igrejas no dia de Santo Antônio, 13 de junho."
+    },
+    {
+      "termo": "Ciclo lunar",
+      "texto": "As quatro fases da lua, que se repetem a cada cerca de 29 dias: nova, crescente, cheia e minguante."
+    },
+    {
+      "termo": "Firmeza",
+      "texto": "Estabilidade espiritual: a sensação de estar com os pés no chão e a casa protegida."
+    }
+  ],
+  "sobre": "Sou a Maria, Ifá Adèbìy, cartomante.\nTrabalho com espiritualidade e atendo consultas com o baralho cigano.\nEste guia reúne rituais caseiros que fazem parte da minha prática, para você cuidar da sua casa e da sua energia no dia a dia.",
+  "sobre_foto": "img/maria.jpg",
+  "contato": {
+    "whatsapp": "5511978705684",
+    "mensagem_leitura": "Olá, Maria! Vim pelo guia de Banhos de Ervas e gostaria de agendar uma consulta com o baralho cigano.",
+    "mensagem_suporte": "Olá, Maria! Estou usando o guia de Banhos de Ervas e tenho uma dúvida:",
+    "instagram": "mundociganatarot",
+    "texto_cta": "Quer uma orientação personalizada? Agende sua consulta com o baralho cigano."
+  },
+  "grupos": [
+    "Fogo e fumaça",
+    "Ervas secas",
+    "Especiarias",
+    "Resinas",
+    "Minerais",
+    "Doces",
+    "Alimentos",
+    "Água e utensílios",
+    "Outros"
+  ],
+  "secoes": [
+    "Defumação",
+    "Limpeza da casa",
+    "Velas",
+    "Mel e açúcar",
+    "Lua e pedidos",
+    "Proteção portátil",
+    "Frutas, pães e grãos"
+  ],
+  "finalidades": [
+    "Limpeza Energética",
+    "Amor e Magnetismo",
+    "Trabalho e Caminhos",
+    "Prosperidade",
+    "Autoestima e Poder",
+    "Proteção"
+  ],
+  "elementos": [
+    {
+      "nome": "Carvão Vegetal",
+      "grupo": "Fogo e fumaça",
+      "associacao": "Na tradição, a brasa transforma o que é colocado sobre ela em fumaça, levando embora o que pesa. Apagado, na água, é usado como absorvedor de cargas.",
+      "uso": "Em brasa, como base das defumações. Apagado e frio, dentro de um copo d'água.",
+      "onde": "Supermercados (carvão para churrasco, em pedaços pequenos) ou casas de artigos religiosos (carvão vegetal em pastilhas, que acende mais rápido).",
+      "cuidado": "Carvão em brasa libera monóxido de carbono: use sempre com janelas abertas, nunca em cômodo fechado e nunca ao dormir. Nunca deixe a brasa sozinha.",
+      "substituicao": "Para defumar, o carvão em pastilha de casa religiosa é o mais prático. Não há substituto para a brasa.",
+      "utensilio": false,
+      "banhos": ""
+    },
+    {
+      "nome": "Defumador",
+      "grupo": "Fogo e fumaça",
+      "associacao": "Recipiente que guarda a brasa e permite levar a fumaça pela casa.",
+      "uso": "Defumador de metal com alça (turíbulo) ou uma panela pequena e velha de ferro ou alumínio, usada só para isso.",
+      "onde": "Casas de artigos religiosos. Uma panelinha velha com cabo funciona bem.",
+      "cuidado": "O metal esquenta muito: segure sempre pela alça ou com pano grosso e apoie sobre superfície que não queime.",
+      "substituicao": "Panela pequena de metal com cabo, dedicada só às defumações.",
+      "utensilio": false,
+      "banhos": ""
+    },
+    {
+      "nome": "Vela",
+      "grupo": "Fogo e fumaça",
+      "associacao": "A chama representa a luz que ilumina o pedido. A cor da vela direciona a intenção (veja o Guia das cores das velas).",
+      "uso": "Vela comum, de cor indicada em cada ritual, sempre sobre pires ou castiçal.",
+      "onde": "Supermercados e casas de artigos religiosos.",
+      "cuidado": "Nunca deixe uma vela acesa sozinha, ao dormir ou perto de cortinas, papéis, plantas secas, crianças e pets. Apoie sempre em superfície firme e que não queime.",
+      "substituicao": "Na falta da cor indicada, use vela branca, que serve para todas as intenções.",
+      "utensilio": false,
+      "banhos": ""
+    },
+    {
+      "nome": "Vela de 7 Dias",
+      "grupo": "Fogo e fumaça",
+      "associacao": "Vela que queima por vários dias seguidos, usada para pedidos que pedem constância.",
+      "uso": "Vela dentro de copo de vidro, apoiada sobre um prato de louça.",
+      "onde": "Supermercados e casas de artigos religiosos.",
+      "cuidado": "Mesmo dentro do vidro, ela precisa de alguém em casa. Se for sair ou dormir, abafe a chama e reacenda depois. O vidro esquenta e pode trincar: use prato de louça embaixo.",
+      "substituicao": "Velas comuns acesas uma por dia, durante 7 dias.",
+      "utensilio": false,
+      "banhos": ""
+    },
+    {
+      "nome": "Alecrim",
+      "grupo": "Ervas secas",
+      "associacao": "Associado à limpeza, à alegria e à renovação. É a erva mais versátil das defumações.",
+      "uso": "Seco, nas defumações. Fresco, em ramos, em águas de limpeza e borrifadores.",
+      "onde": "Feiras, supermercados e casas de ervas.",
+      "cuidado": "Nenhum cuidado especial no uso descrito.",
+      "substituicao": "Alfazema (para harmonizar) ou louro (para caminhos).",
+      "utensilio": false,
+      "banhos": "alecrim"
+    },
+    {
+      "nome": "Alfazema",
+      "grupo": "Ervas secas",
+      "associacao": "Associada à calma, à paz da casa e ao acolhimento. Alfazema e lavanda são, na prática, a mesma família de plantas.",
+      "uso": "Flores secas nas defumações. Água de alfazema (o perfume tradicional) na limpeza do chão.",
+      "onde": "Casas de ervas (flores secas) e farmácias ou perfumarias (água de alfazema).",
+      "cuidado": "A água de alfazema contém álcool: mantenha longe de chamas.",
+      "substituicao": "Camomila seca, para harmonização.",
+      "utensilio": false,
+      "banhos": "lavanda"
+    },
+    {
+      "nome": "Arruda",
+      "grupo": "Ervas secas",
+      "associacao": "Uma das ervas mais conhecidas da tradição popular para afastar inveja e mau-olhado.",
+      "uso": "Seca, nas defumações de descarrego e proteção e nos patuás.",
+      "onde": "Feiras, casas de ervas e casas de artigos religiosos.",
+      "cuidado": "Pode irritar a pele em contato com o sol. Contraindicada para gestantes. Tóxica para animais se ingerida.",
+      "substituicao": "Guiné.",
+      "utensilio": false,
+      "banhos": ""
+    },
+    {
+      "nome": "Guiné",
+      "grupo": "Ervas secas",
+      "associacao": "Tradicionalmente usada para afastar cargas densas e influências negativas.",
+      "uso": "Seca, nas defumações de descarrego e proteção.",
+      "onde": "Casas de ervas e de artigos religiosos.",
+      "cuidado": "Contraindicada para gestantes. Tóxica para animais se ingerida.",
+      "substituicao": "Arruda.",
+      "utensilio": false,
+      "banhos": "guine"
+    },
+    {
+      "nome": "Louro",
+      "grupo": "Ervas secas",
+      "associacao": "Associado à vitória, à prosperidade e à abertura de caminhos.",
+      "uso": "Folhas secas nas defumações, nos potes e saquinhos de prosperidade e ao redor das velas.",
+      "onde": "Supermercados (seção de temperos).",
+      "cuidado": "Nenhum cuidado especial no uso descrito.",
+      "substituicao": "Alecrim.",
+      "utensilio": false,
+      "banhos": "louro"
+    },
+    {
+      "nome": "Pétalas de Rosa",
+      "grupo": "Ervas secas",
+      "associacao": "Associadas ao amor, ao afeto e à harmonia. A rosa vermelha fala de paixão; a branca, de paz; a rosa, de carinho.",
+      "uso": "Secas nas defumações. Frescas ou secas ao redor das velas.",
+      "onde": "Floriculturas (frescas) ou casas de ervas (secas). Para secar em casa, deixe as pétalas à sombra por alguns dias.",
+      "cuidado": "Nenhum cuidado especial no uso descrito.",
+      "substituicao": "Alfazema, para harmonia.",
+      "utensilio": false,
+      "banhos": "rosa-vermelha"
+    },
+    {
+      "nome": "Casca de Laranja",
+      "grupo": "Ervas secas",
+      "associacao": "Associada à alegria, ao ânimo e ao movimento da prosperidade.",
+      "uso": "Seca, nas defumações de prosperidade e harmonização.",
+      "onde": "Em casa: guarde as cascas e deixe secar à sombra por alguns dias.",
+      "cuidado": "Use só a casca seca, sem resto da fruta, para não fazer fumaça escura.",
+      "substituicao": "Casca de tangerina seca.",
+      "utensilio": false,
+      "banhos": "casca-de-laranja-seca"
+    },
+    {
+      "nome": "Casca de Alho",
+      "grupo": "Ervas secas",
+      "associacao": "Na tradição popular, protege a casa e afasta o que é ruim.",
+      "uso": "Seca, nas defumações de proteção.",
+      "onde": "Em casa: guarde as cascas do alho de cozinha.",
+      "cuidado": "Tem cheiro forte: ventile bem a casa depois.",
+      "substituicao": "Cravo-da-índia.",
+      "utensilio": false,
+      "banhos": ""
+    },
+    {
+      "nome": "Canela em Pau",
+      "grupo": "Especiarias",
+      "associacao": "Associada ao calor, ao movimento e à prosperidade.",
+      "uso": "Quebrada nas defumações, no pote de mel e nos saquinhos de prosperidade.",
+      "onde": "Supermercados (seção de temperos).",
+      "cuidado": "Nenhum cuidado especial no uso descrito.",
+      "substituicao": "Canela em pó, em menor quantidade.",
+      "utensilio": false,
+      "banhos": "canela-em-casca"
+    },
+    {
+      "nome": "Canela em Pó",
+      "grupo": "Especiarias",
+      "associacao": "Associada à prosperidade rápida e ao dinamismo.",
+      "uso": "Ao redor das velas e no ritual de açúcar e canela da porta.",
+      "onde": "Supermercados.",
+      "cuidado": "Nunca coloque canela em pó sobre o pavio ou a chama: ela pode faiscar. Evite contato com os olhos.",
+      "substituicao": "Canela em pau.",
+      "utensilio": false,
+      "banhos": "canela-em-po"
+    },
+    {
+      "nome": "Cravo-da-Índia",
+      "grupo": "Especiarias",
+      "associacao": "Associado à proteção, ao respeito e a \"fixar\" uma intenção.",
+      "uso": "Nas defumações, nos patuás e na garrafa de proteção.",
+      "onde": "Supermercados (seção de temperos).",
+      "cuidado": "Nenhum cuidado especial no uso descrito.",
+      "substituicao": "Casca de alho, para proteção.",
+      "utensilio": false,
+      "banhos": "cravo-da-india"
+    },
+    {
+      "nome": "Anis-Estrelado",
+      "grupo": "Especiarias",
+      "associacao": "Associado à sorte, à intuição e às oportunidades.",
+      "uso": "Nas defumações de abertura de caminhos.",
+      "onde": "Supermercados e casas de ervas.",
+      "cuidado": "Nenhum cuidado especial no uso descrito.",
+      "substituicao": "Louro.",
+      "utensilio": false,
+      "banhos": "anis-estrelado"
+    },
+    {
+      "nome": "Pimenta Seca",
+      "grupo": "Especiarias",
+      "associacao": "Na tradição popular, protege e \"queima\" o que vem com má intenção.",
+      "uso": "Pimenta-do-reino em grãos ou pimenta dedo-de-moça seca, na garrafa de proteção.",
+      "onde": "Supermercados.",
+      "cuidado": "Não leve as mãos aos olhos depois de manusear. Mantenha longe de crianças.",
+      "substituicao": "Cravo-da-índia.",
+      "utensilio": false,
+      "banhos": ""
+    },
+    {
+      "nome": "Benjoim",
+      "grupo": "Resinas",
+      "associacao": "Resina perfumada associada à elevação, à paz e à oração.",
+      "uso": "Em grãos, sobre a brasa, em pequena quantidade.",
+      "onde": "Casas de artigos religiosos e lojas de incensos.",
+      "cuidado": "A resina derrete e pode espirrar: coloque poucos grãos de cada vez. Faz fumaça densa: ventile bem.",
+      "substituicao": "Incenso de benjoim em vareta, para quem não quer usar carvão.",
+      "utensilio": false,
+      "banhos": ""
+    },
+    {
+      "nome": "Mirra",
+      "grupo": "Resinas",
+      "associacao": "Resina antiga associada à purificação e à espiritualidade.",
+      "uso": "Em grãos, sobre a brasa, junto com o benjoim.",
+      "onde": "Casas de artigos religiosos e lojas de incensos.",
+      "cuidado": "Mesmos cuidados do benjoim: pouca quantidade e boa ventilação.",
+      "substituicao": "Incenso de mirra em vareta.",
+      "utensilio": false,
+      "banhos": ""
+    },
+    {
+      "nome": "Sal Grosso",
+      "grupo": "Minerais",
+      "associacao": "Um dos elementos mais usados na tradição para absorver e neutralizar cargas.",
+      "uso": "Em copos d'água, pratinhos nos cantos, borrifadores, patuás e garrafas de proteção.",
+      "onde": "Supermercados.",
+      "cuidado": "Sal em excesso faz mal a pets: deixe fora do alcance deles. Descarte sempre no ralo com água corrente.",
+      "substituicao": "Não há substituto direto.",
+      "utensilio": false,
+      "banhos": "sal-grosso"
+    },
+    {
+      "nome": "Anil",
+      "grupo": "Minerais",
+      "associacao": "O azul do anil é tradicionalmente usado para limpeza e proteção de ambientes. Também é chamado de wagi.",
+      "uso": "Em pedra ou em pó, dissolvido em água, para limpar o chão e em borrifadores.",
+      "onde": "Casas de artigos religiosos e algumas lojas de produtos de limpeza.",
+      "cuidado": "Mancha rejunte, madeira, pedras porosas, tecidos e a pele: use luvas e teste num canto escondido antes. Não ingerir.",
+      "substituicao": "Sal grosso, na limpeza do chão.",
+      "utensilio": false,
+      "banhos": ""
+    },
+    {
+      "nome": "Mel",
+      "grupo": "Doces",
+      "associacao": "Associado a adoçar situações, trazer harmonia e suavizar conversas.",
+      "uso": "No pote de adoçamento, sobre papéis de pedido e ao redor das velas.",
+      "onde": "Supermercados.",
+      "cuidado": "Atrai formigas: use pote bem fechado e limpe o que escorrer.",
+      "substituicao": "Açúcar.",
+      "utensilio": false,
+      "banhos": ""
+    },
+    {
+      "nome": "Açúcar",
+      "grupo": "Doces",
+      "associacao": "Associado à doçura, à alegria e à prosperidade.",
+      "uso": "No ritual da porta, em círculos ao redor de velas e em adoçamentos.",
+      "onde": "Supermercados.",
+      "cuidado": "Atrai formigas: varra ou limpe depois.",
+      "substituicao": "Mel.",
+      "utensilio": false,
+      "banhos": ""
+    },
+    {
+      "nome": "Pão",
+      "grupo": "Alimentos",
+      "associacao": "Símbolo de fartura e de partilha. A tradição de Santo Antônio associa o pão a nunca faltar comida em casa.",
+      "uso": "Pão pequeno e seco (torrado ou pão bento) guardado com os mantimentos.",
+      "onde": "Padarias. O pão bento é distribuído em igrejas no dia de Santo Antônio, 13 de junho.",
+      "cuidado": "Pão mofa: troque ao primeiro sinal de umidade. Não dê pão a pássaros, porque faz mal a eles.",
+      "substituicao": "Um punhado de grãos (arroz ou trigo) num saquinho.",
+      "utensilio": false,
+      "banhos": ""
+    },
+    {
+      "nome": "Frutas",
+      "grupo": "Alimentos",
+      "associacao": "Associadas à abundância, à doçura da vida e à partilha.",
+      "uso": "Na fruteira da prosperidade, sempre frescas e para consumo.",
+      "onde": "Feiras e supermercados.",
+      "cuidado": "Nunca deixe frutas estragarem: consuma ou partilhe antes. Fruta estragada contradiz a intenção e atrai insetos.",
+      "substituicao": "Não se aplica.",
+      "utensilio": false,
+      "banhos": ""
+    },
+    {
+      "nome": "Grãos",
+      "grupo": "Alimentos",
+      "associacao": "Arroz, feijão, milho e lentilha simbolizam a mesa farta e a multiplicação.",
+      "uso": "No pote da fartura, em camadas.",
+      "onde": "Supermercados.",
+      "cuidado": "Use pote bem fechado para evitar carunchos.",
+      "substituicao": "Use os grãos que tiver em casa.",
+      "utensilio": false,
+      "banhos": ""
+    },
+    {
+      "nome": "Lentilha",
+      "grupo": "Alimentos",
+      "associacao": "Pela forma de moedinha, é tradicionalmente associada à prosperidade no ano novo.",
+      "uso": "Um punhado guardado na carteira e o restante cozido e partilhado.",
+      "onde": "Supermercados.",
+      "cuidado": "Nenhum cuidado especial no uso descrito.",
+      "substituicao": "Grão-de-bico ou outro grão redondo.",
+      "utensilio": false,
+      "banhos": ""
+    },
+    {
+      "nome": "Água",
+      "grupo": "Água e utensílios",
+      "associacao": "Elemento de limpeza e de recomeço. Recebe e leva embora o que não serve.",
+      "uso": "Filtrada, nos copos e jarras. Da torneira, nos baldes de limpeza.",
+      "onde": "Em casa.",
+      "cuidado": "Água de rituais não deve ser bebida.",
+      "substituicao": "Não se aplica.",
+      "utensilio": true,
+      "banhos": ""
+    },
+    {
+      "nome": "Copo de Vidro",
+      "grupo": "Água e utensílios",
+      "associacao": "Vidro liso e transparente deixa ver a água e o que acontece nela.",
+      "uso": "Copo liso, sem desenhos, usado só para rituais.",
+      "onde": "Em casa.",
+      "cuidado": "Coloque em local onde não vai ser derrubado.",
+      "substituicao": "Pote de vidro pequeno.",
+      "utensilio": true,
+      "banhos": ""
+    },
+    {
+      "nome": "Pires",
+      "grupo": "Água e utensílios",
+      "associacao": "Base segura para velas, sal e pequenos preparos.",
+      "uso": "Pires de louça, nunca de plástico.",
+      "onde": "Em casa.",
+      "cuidado": "Louça pode esquentar com a vela: não toque logo depois.",
+      "substituicao": "Prato pequeno de louça ou castiçal.",
+      "utensilio": true,
+      "banhos": ""
+    },
+    {
+      "nome": "Pote de Vidro",
+      "grupo": "Água e utensílios",
+      "associacao": "Guarda e \"fecha\" a intenção: mel, grãos, pedidos.",
+      "uso": "Pote ou garrafa de vidro com tampa, limpo e seco.",
+      "onde": "Em casa: potes de geleia ou palmito lavados servem bem.",
+      "cuidado": "Feche bem para evitar formigas e insetos.",
+      "substituicao": "Garrafa de vidro com rolha.",
+      "utensilio": true,
+      "banhos": ""
+    },
+    {
+      "nome": "Jarra de Vidro",
+      "grupo": "Água e utensílios",
+      "associacao": "Recebe a água que vai ficar sob a lua.",
+      "uso": "Jarra de vidro transparente, com tampa.",
+      "onde": "Em casa.",
+      "cuidado": "Mantenha tampada para não entrar sujeira ou insetos.",
+      "substituicao": "Garrafa de vidro com tampa.",
+      "utensilio": true,
+      "banhos": ""
+    },
+    {
+      "nome": "Borrifador",
+      "grupo": "Água e utensílios",
+      "associacao": "Espalha a água preparada pelos cantos da casa.",
+      "uso": "Borrifador limpo, de preferência novo, usado só para isso.",
+      "onde": "Lojas de utilidades domésticas.",
+      "cuidado": "Identifique o frasco e guarde longe de crianças.",
+      "substituicao": "Pano úmido passado nos cantos.",
+      "utensilio": true,
+      "banhos": ""
+    },
+    {
+      "nome": "Balde e Pano",
+      "grupo": "Água e utensílios",
+      "associacao": "Para as limpezas do chão com água preparada.",
+      "uso": "Balde limpo e pano separado, de preferência usado só nas limpezas espirituais.",
+      "onde": "Em casa.",
+      "cuidado": "Com anil, use pano escuro ou velho, porque ele fica manchado.",
+      "substituicao": "Não se aplica.",
+      "utensilio": true,
+      "banhos": ""
+    },
+    {
+      "nome": "Saquinho de Pano",
+      "grupo": "Água e utensílios",
+      "associacao": "Guarda as ervas do patuá e dos saquinhos que você leva com você.",
+      "uso": "Saquinho pequeno de tecido natural (algodão, chita), que feche com fita ou cordão.",
+      "onde": "Armarinhos e casas de artigos religiosos. Pode ser costurado com um retalho.",
+      "cuidado": "Mantenha fechado e longe de crianças pequenas.",
+      "substituicao": "Retalho de pano amarrado com fita.",
+      "utensilio": true,
+      "banhos": ""
+    },
+    {
+      "nome": "Moedas",
+      "grupo": "Outros",
+      "associacao": "Símbolo direto de dinheiro e de circulação.",
+      "uso": "Moedas comuns, de preferência douradas, limpas.",
+      "onde": "Na sua carteira.",
+      "cuidado": "Mantenha longe de crianças pequenas.",
+      "substituicao": "Não se aplica.",
+      "utensilio": true,
+      "banhos": ""
+    },
+    {
+      "nome": "Papel e Caneta",
+      "grupo": "Outros",
+      "associacao": "Escrever dá forma à intenção. O papel guarda o pedido.",
+      "uso": "Papel branco sem pauta e caneta azul ou preta.",
+      "onde": "Em casa.",
+      "cuidado": "Nos rituais de queima, use papel pequeno e siga os cuidados com fogo.",
+      "substituicao": "Não se aplica.",
+      "utensilio": true,
+      "banhos": ""
+    },
+    {
+      "nome": "Planta em Vaso",
+      "grupo": "Outros",
+      "associacao": "Símbolo de crescimento que você acompanha dia a dia.",
+      "uso": "Uma planta viva em vaso, ou sementes, terra e um vaso pequeno.",
+      "onde": "Floriculturas e supermercados.",
+      "cuidado": "Algumas plantas são tóxicas para pets: confira antes de escolher.",
+      "substituicao": "Sementes de feijão em algodão úmido.",
+      "utensilio": true,
+      "banhos": ""
+    }
+  ],
+  "rituais": [
+    {
+      "id": 1,
+      "titulo": "Defumação de Descarrego da Casa",
+      "secao": "Defumação",
+      "finalidade": "Limpeza Energética",
+      "finalidades_extras": [
+        "Proteção"
+      ],
+      "quando": "De dia, de preferência na lua minguante ou quando a casa estiver pesada",
+      "duracao": "20 a 30 minutos",
+      "frequencia": "No máximo 1 vez por semana. Faça a Defumação de Harmonização do Lar logo depois ou no dia seguinte.",
+      "direcao": "Fundos → porta da frente",
+      "materiais": [
+        {
+          "elemento": "Carvão Vegetal",
+          "quantidade": "2 ou 3 pedaços pequenos"
+        },
+        {
+          "elemento": "Defumador",
+          "quantidade": "1"
+        },
+        {
+          "elemento": "Arruda",
+          "quantidade": "1 colher de sopa, seca"
+        },
+        {
+          "elemento": "Guiné",
+          "quantidade": "1 colher de sopa, seca"
+        },
+        {
+          "elemento": "Alecrim",
+          "quantidade": "1 colher de sopa, seco"
+        }
+      ],
+      "passos": [
+        "Faça antes a limpeza comum da casa e tire o lixo.",
+        "Abra as janelas, as portas internas e as portas dos armários.",
+        "Acenda o carvão como explicado em \"Como defumar\" e espere ficar em brasa, coberto de uma camada cinza.",
+        "Coloque um pouco das ervas sobre a brasa. Vá acrescentando aos poucos, sempre que a fumaça diminuir.",
+        "Comece pelo cômodo mais aos fundos. Passe a fumaça pelos cantos, atrás das portas e dentro dos armários, e siga em direção à porta da frente.",
+        "Termine na porta de entrada, com ela aberta por alguns instantes."
+      ],
+      "intencao": "Tudo o que é pesado e não pertence a esta casa sai agora pela porta da frente.",
+      "descarte": "Espere as cinzas esfriarem por completo, molhe-as e descarte na terra de um jardim ou no lixo orgânico.",
+      "explicacao": "Na tradição, a arruda e a guiné são usadas para afastar inveja e cargas densas, e o alecrim limpa e renova. A direção dos fundos para a frente simboliza levar o que pesa para fora.",
+      "cuidados": [
+        "Faça sempre com janelas abertas, nunca em cômodo fechado e nunca ao dormir.",
+        "Mantenha crianças, gestantes, pessoas com asma, pets e principalmente pássaros longe da fumaça.",
+        "Nunca deixe a brasa sozinha e apoie o defumador em superfície que não queime.",
+        "Arruda: Pode irritar a pele em contato com o sol. Contraindicada para gestantes. Tóxica para animais se ingerida.",
+        "Guiné: Contraindicada para gestantes. Tóxica para animais se ingerida."
+      ],
+      "banho": {
+        "id": 13,
+        "titulo": "Faxina Astral Pesada"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Defumação de Harmonização do Lar",
+      "secao": "Defumação",
+      "finalidade": "Limpeza Energética",
+      "finalidades_extras": [
+        "Amor e Magnetismo"
+      ],
+      "quando": "Logo depois de um descarrego, ou sempre que quiser trazer paz para a casa",
+      "duracao": "15 a 20 minutos",
+      "frequencia": "Sempre que sentir necessidade.",
+      "direcao": "Porta da frente → fundos",
+      "materiais": [
+        {
+          "elemento": "Carvão Vegetal",
+          "quantidade": "2 pedaços pequenos"
+        },
+        {
+          "elemento": "Defumador",
+          "quantidade": "1"
+        },
+        {
+          "elemento": "Alfazema",
+          "quantidade": "1 colher de sopa, seca"
+        },
+        {
+          "elemento": "Alecrim",
+          "quantidade": "1 colher de chá, seco"
+        },
+        {
+          "elemento": "Casca de Laranja",
+          "quantidade": "1 colher de sopa, seca"
+        }
+      ],
+      "passos": [
+        "Deixe as janelas abertas.",
+        "Acenda o carvão como explicado em \"Como defumar\" e espere ficar em brasa, coberto de uma camada cinza.",
+        "Coloque um pouco das ervas sobre a brasa.",
+        "Comece pela porta de entrada e caminhe com calma em direção aos fundos, passando por todos os cômodos.",
+        "Demore um pouco mais nos lugares onde a família se reúne, como a sala e a cozinha."
+      ],
+      "intencao": "Que esta casa se encha de calma, leveza e bem-querer.",
+      "descarte": "Espere as cinzas esfriarem por completo, molhe-as e descarte na terra de um jardim ou no lixo orgânico.",
+      "explicacao": "A alfazema é associada à paz, a casca de laranja à alegria e o alecrim à renovação. Entrar da porta para dentro simboliza trazer o que é bom para a casa.",
+      "cuidados": [
+        "Faça sempre com janelas abertas, nunca em cômodo fechado e nunca ao dormir.",
+        "Mantenha crianças, gestantes, pessoas com asma, pets e principalmente pássaros longe da fumaça.",
+        "Nunca deixe a brasa sozinha e apoie o defumador em superfície que não queime.",
+        "Alfazema: A água de alfazema contém álcool: mantenha longe de chamas.",
+        "Casca de Laranja: Use só a casca seca, sem resto da fruta, para não fazer fumaça escura."
+      ],
+      "banho": {
+        "id": 18,
+        "titulo": "Reestruturação da Aura"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Defumação de Prosperidade",
+      "secao": "Defumação",
+      "finalidade": "Prosperidade",
+      "finalidades_extras": [],
+      "quando": "Pela manhã, na lua crescente ou no primeiro dia do mês",
+      "duracao": "15 a 20 minutos",
+      "frequencia": "1 vez por mês ou a cada lua crescente.",
+      "direcao": "Porta da frente → fundos",
+      "materiais": [
+        {
+          "elemento": "Carvão Vegetal",
+          "quantidade": "2 pedaços pequenos"
+        },
+        {
+          "elemento": "Defumador",
+          "quantidade": "1"
+        },
+        {
+          "elemento": "Canela em Pau",
+          "quantidade": "1 pedaço, quebrado"
+        },
+        {
+          "elemento": "Louro",
+          "quantidade": "3 folhas, picadas"
+        },
+        {
+          "elemento": "Cravo-da-Índia",
+          "quantidade": "5 cravos"
+        },
+        {
+          "elemento": "Casca de Laranja",
+          "quantidade": "1 colher de sopa, seca"
+        }
+      ],
+      "passos": [
+        "Deixe as janelas abertas.",
+        "Acenda o carvão como explicado em \"Como defumar\" e espere ficar em brasa, coberto de uma camada cinza.",
+        "Coloque a canela, o louro, o cravo e a casca de laranja sobre a brasa, aos poucos.",
+        "Comece na porta de entrada e siga para dentro da casa.",
+        "Termine na cozinha, perto de onde ficam os alimentos, e também onde você guarda documentos ou trabalha."
+      ],
+      "intencao": "A fartura entra por esta porta e encontra lugar nesta casa.",
+      "descarte": "Espere as cinzas esfriarem por completo, molhe-as e descarte na terra de um jardim ou no lixo orgânico.",
+      "explicacao": "A canela e a casca de laranja são associadas ao movimento do dinheiro, o louro à conquista e o cravo a fixar a intenção.",
+      "cuidados": [
+        "Faça sempre com janelas abertas, nunca em cômodo fechado e nunca ao dormir.",
+        "Mantenha crianças, gestantes, pessoas com asma, pets e principalmente pássaros longe da fumaça.",
+        "Nunca deixe a brasa sozinha e apoie o defumador em superfície que não queime.",
+        "Casca de Laranja: Use só a casca seca, sem resto da fruta, para não fazer fumaça escura."
+      ],
+      "banho": {
+        "id": 31,
+        "titulo": "Ímã de Oportunidades"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Defumação de Proteção",
+      "secao": "Defumação",
+      "finalidade": "Proteção",
+      "finalidades_extras": [],
+      "quando": "Depois de um descarrego, ou quando sentir a casa vulnerável",
+      "duracao": "20 minutos",
+      "frequencia": "No máximo 1 vez por semana.",
+      "direcao": "Fundos → porta da frente",
+      "materiais": [
+        {
+          "elemento": "Carvão Vegetal",
+          "quantidade": "2 ou 3 pedaços pequenos"
+        },
+        {
+          "elemento": "Defumador",
+          "quantidade": "1"
+        },
+        {
+          "elemento": "Arruda",
+          "quantidade": "1 colher de sopa, seca"
+        },
+        {
+          "elemento": "Guiné",
+          "quantidade": "1 colher de sopa, seca"
+        },
+        {
+          "elemento": "Cravo-da-Índia",
+          "quantidade": "5 cravos"
+        },
+        {
+          "elemento": "Casca de Alho",
+          "quantidade": "as cascas de 1 cabeça"
+        }
+      ],
+      "passos": [
+        "Abra bem as janelas. A fumaça desta defumação é forte: deixe o cômodo vazio enquanto passa.",
+        "Acenda o carvão como explicado em \"Como defumar\" e espere ficar em brasa, coberto de uma camada cinza.",
+        "Coloque as ervas e as cascas de alho sobre a brasa.",
+        "Comece pelos fundos e siga até a porta da frente.",
+        "Em cada porta e janela, passe a fumaça devagar ao redor do batente, como se desenhasse uma moldura."
+      ],
+      "intencao": "Esta casa está guardada. O que não é do bem não entra.",
+      "descarte": "Espere as cinzas esfriarem por completo, molhe-as e descarte na terra de um jardim ou no lixo orgânico.",
+      "explicacao": "Arruda, guiné e alho são tradicionalmente usados para proteção. Passar a fumaça nos batentes simboliza \"fechar\" as entradas da casa.",
+      "cuidados": [
+        "Faça sempre com janelas abertas, nunca em cômodo fechado e nunca ao dormir.",
+        "Mantenha crianças, gestantes, pessoas com asma, pets e principalmente pássaros longe da fumaça.",
+        "Nunca deixe a brasa sozinha e apoie o defumador em superfície que não queime.",
+        "Arruda: Pode irritar a pele em contato com o sol. Contraindicada para gestantes. Tóxica para animais se ingerida.",
+        "Guiné: Contraindicada para gestantes. Tóxica para animais se ingerida.",
+        "Casca de Alho: Tem cheiro forte: ventile bem a casa depois."
+      ],
+      "banho": {
+        "id": 43,
+        "titulo": "Escudo Semanal"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Defumação de Abertura de Caminhos",
+      "secao": "Defumação",
+      "finalidade": "Trabalho e Caminhos",
+      "finalidades_extras": [],
+      "quando": "Segunda-feira de manhã, ao começar um projeto, um emprego ou uma busca",
+      "duracao": "15 minutos",
+      "frequencia": "1 vez por semana, durante um mês.",
+      "direcao": "Porta da frente → fundos",
+      "materiais": [
+        {
+          "elemento": "Carvão Vegetal",
+          "quantidade": "2 pedaços pequenos"
+        },
+        {
+          "elemento": "Defumador",
+          "quantidade": "1"
+        },
+        {
+          "elemento": "Louro",
+          "quantidade": "3 folhas"
+        },
+        {
+          "elemento": "Alecrim",
+          "quantidade": "1 colher de sopa, seco"
+        },
+        {
+          "elemento": "Anis-Estrelado",
+          "quantidade": "2 estrelas"
+        }
+      ],
+      "passos": [
+        "Deixe as janelas abertas.",
+        "Acenda o carvão como explicado em \"Como defumar\" e espere ficar em brasa, coberto de uma camada cinza.",
+        "Coloque as ervas sobre a brasa.",
+        "Comece na porta de entrada e siga para dentro.",
+        "Termine no lugar onde você trabalha, estuda ou guarda seus documentos."
+      ],
+      "intencao": "Os caminhos se abrem diante de mim e eu sigo com clareza.",
+      "descarte": "Espere as cinzas esfriarem por completo, molhe-as e descarte na terra de um jardim ou no lixo orgânico.",
+      "explicacao": "O louro é associado à vitória, o alecrim à clareza e o anis-estrelado às oportunidades.",
+      "cuidados": [
+        "Faça sempre com janelas abertas, nunca em cômodo fechado e nunca ao dormir.",
+        "Mantenha crianças, gestantes, pessoas com asma, pets e principalmente pássaros longe da fumaça.",
+        "Nunca deixe a brasa sozinha e apoie o defumador em superfície que não queime."
+      ],
+      "banho": {
+        "id": 25,
+        "titulo": "Abertura Profissional"
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "Defumação de Harmonia no Amor e na Convivência",
+      "secao": "Defumação",
+      "finalidade": "Amor e Magnetismo",
+      "finalidades_extras": [],
+      "quando": "Sexta-feira à noite, ou depois de discussões em casa",
+      "duracao": "15 minutos",
+      "frequencia": "Sempre que sentir necessidade.",
+      "direcao": "Porta da frente → fundos",
+      "materiais": [
+        {
+          "elemento": "Carvão Vegetal",
+          "quantidade": "2 pedaços pequenos"
+        },
+        {
+          "elemento": "Defumador",
+          "quantidade": "1"
+        },
+        {
+          "elemento": "Pétalas de Rosa",
+          "quantidade": "1 colher de sopa, secas"
+        },
+        {
+          "elemento": "Canela em Pau",
+          "quantidade": "1 pedaço pequeno"
+        },
+        {
+          "elemento": "Alfazema",
+          "quantidade": "1 colher de sopa, seca"
+        }
+      ],
+      "passos": [
+        "Deixe as janelas abertas.",
+        "Acenda o carvão como explicado em \"Como defumar\" e espere ficar em brasa, coberto de uma camada cinza.",
+        "Coloque as pétalas, a canela e a alfazema sobre a brasa.",
+        "Passe principalmente pelo quarto e pela sala, com calma."
+      ],
+      "intencao": "Que nesta casa a conversa seja mansa e o carinho volte a circular.",
+      "descarte": "Espere as cinzas esfriarem por completo, molhe-as e descarte na terra de um jardim ou no lixo orgânico.",
+      "explicacao": "A rosa é associada ao afeto, a canela ao calor e a alfazema à paz.",
+      "cuidados": [
+        "Faça sempre com janelas abertas, nunca em cômodo fechado e nunca ao dormir.",
+        "Mantenha crianças, gestantes, pessoas com asma, pets e principalmente pássaros longe da fumaça.",
+        "Nunca deixe a brasa sozinha e apoie o defumador em superfície que não queime.",
+        "Alfazema: A água de alfazema contém álcool: mantenha longe de chamas."
+      ],
+      "banho": {
+        "id": 23,
+        "titulo": "Paz a Dois"
+      }
+    },
+    {
+      "id": 7,
+      "titulo": "Defumação do Local de Trabalho ou Comércio",
+      "secao": "Defumação",
+      "finalidade": "Trabalho e Caminhos",
+      "finalidades_extras": [
+        "Prosperidade"
+      ],
+      "quando": "Segunda-feira, antes de abrir ou antes de começar o expediente",
+      "duracao": "15 minutos",
+      "frequencia": "1 vez por semana.",
+      "direcao": "Porta de entrada → fundos",
+      "materiais": [
+        {
+          "elemento": "Carvão Vegetal",
+          "quantidade": "2 pedaços pequenos"
+        },
+        {
+          "elemento": "Defumador",
+          "quantidade": "1"
+        },
+        {
+          "elemento": "Canela em Pau",
+          "quantidade": "1 pedaço"
+        },
+        {
+          "elemento": "Louro",
+          "quantidade": "3 folhas"
+        },
+        {
+          "elemento": "Cravo-da-Índia",
+          "quantidade": "5 cravos"
+        },
+        {
+          "elemento": "Alecrim",
+          "quantidade": "1 colher de sopa, seco"
+        }
+      ],
+      "passos": [
+        "Antes de tudo, confira se o local permite fumaça e se há detector ou alarme de incêndio.",
+        "Faça antes da chegada de clientes ou colegas, com as janelas abertas.",
+        "Acenda o carvão como explicado em \"Como defumar\" e espere ficar em brasa, coberto de uma camada cinza.",
+        "Comece pela porta de entrada e siga para dentro.",
+        "Passe com atenção pelo caixa, pela mesa de trabalho e pelo lugar onde os clientes são atendidos."
+      ],
+      "intencao": "Que este lugar seja procurado, respeitado e próspero.",
+      "descarte": "Espere as cinzas esfriarem por completo, molhe-as e descarte na terra de um jardim ou no lixo orgânico.",
+      "explicacao": "A canela e o louro são associados à prosperidade, o cravo à proteção do negócio e o alecrim à clareza.",
+      "cuidados": [
+        "Faça sempre com janelas abertas, nunca em cômodo fechado e nunca ao dormir.",
+        "Mantenha crianças, gestantes, pessoas com asma, pets e principalmente pássaros longe da fumaça.",
+        "Nunca deixe a brasa sozinha e apoie o defumador em superfície que não queime."
+      ],
+      "banho": {
+        "id": 29,
+        "titulo": "Blindagem no Trabalho"
+      }
+    },
+    {
+      "id": 8,
+      "titulo": "Defumação Pessoal",
+      "secao": "Defumação",
+      "finalidade": "Limpeza Energética",
+      "finalidades_extras": [],
+      "quando": "Ao chegar em casa depois de um dia pesado",
+      "duracao": "5 a 10 minutos",
+      "frequencia": "Sempre que sentir necessidade, sem exagerar.",
+      "direcao": "Da cabeça aos pés",
+      "materiais": [
+        {
+          "elemento": "Carvão Vegetal",
+          "quantidade": "1 ou 2 pedaços pequenos"
+        },
+        {
+          "elemento": "Defumador",
+          "quantidade": "1"
+        },
+        {
+          "elemento": "Alecrim",
+          "quantidade": "1 colher de sopa, seco"
+        },
+        {
+          "elemento": "Alfazema",
+          "quantidade": "1 colher de sopa, seca"
+        }
+      ],
+      "passos": [
+        "Prenda o cabelo e evite roupas soltas ou de tecido sintético.",
+        "Acenda o carvão como explicado em \"Como defumar\" e espere ficar em brasa, coberto de uma camada cinza.",
+        "Coloque as ervas sobre a brasa.",
+        "Segure o defumador pela alça, ou peça a alguém que segure, sempre a uma boa distância do corpo.",
+        "Passe a fumaça em volta da cabeça (por cima, de longe), dos ombros, dos braços, da frente e das costas do corpo, das pernas e dos pés.",
+        "Nunca aproxime o defumador do rosto e não respire a fumaça diretamente."
+      ],
+      "intencao": "Deixo aqui o cansaço e o peso do dia. Sigo leve.",
+      "descarte": "Espere as cinzas esfriarem por completo, molhe-as e descarte na terra de um jardim ou no lixo orgânico.",
+      "explicacao": "O alecrim é associado à limpeza e a alfazema à calma.",
+      "cuidados": [
+        "Faça sempre com janelas abertas, nunca em cômodo fechado e nunca ao dormir.",
+        "Mantenha crianças, gestantes, pessoas com asma, pets e principalmente pássaros longe da fumaça.",
+        "Nunca deixe a brasa sozinha e apoie o defumador em superfície que não queime.",
+        "Gestantes e pessoas com asma ou problemas respiratórios não devem fazer a defumação pessoal.",
+        "Alfazema: A água de alfazema contém álcool: mantenha longe de chamas."
+      ],
+      "banho": {
+        "id": 16,
+        "titulo": "Repouso do Guerreiro"
+      }
+    },
+    {
+      "id": 9,
+      "titulo": "Defumação com Benjoim e Mirra",
+      "secao": "Defumação",
+      "finalidade": "Limpeza Energética",
+      "finalidades_extras": [
+        "Autoestima e Poder"
+      ],
+      "quando": "Em momentos de oração, meditação ou quando quiser elevar o ambiente",
+      "duracao": "15 minutos",
+      "frequencia": "Sempre que sentir necessidade.",
+      "direcao": "Pela casa, com calma, ou parado num cômodo",
+      "materiais": [
+        {
+          "elemento": "Carvão Vegetal",
+          "quantidade": "1 ou 2 pedaços pequenos"
+        },
+        {
+          "elemento": "Defumador",
+          "quantidade": "1"
+        },
+        {
+          "elemento": "Benjoim",
+          "quantidade": "1 colher de chá, em grãos"
+        },
+        {
+          "elemento": "Mirra",
+          "quantidade": "1 colher de chá, em grãos"
+        }
+      ],
+      "passos": [
+        "Deixe as janelas abertas.",
+        "Acenda o carvão como explicado em \"Como defumar\" e espere ficar em brasa, coberto de uma camada cinza.",
+        "Coloque poucos grãos de benjoim e de mirra sobre a brasa. A resina derrete e solta uma fumaça perfumada e densa.",
+        "Percorra a casa com calma, ou deixe o defumador em lugar seguro no cômodo onde vai rezar ou meditar, sempre por perto.",
+        "Acrescente mais grãos aos poucos, se quiser."
+      ],
+      "intencao": "Elevo meus pensamentos e deixo esta casa leve e luminosa.",
+      "descarte": "Espere as cinzas esfriarem por completo, molhe-as e descarte na terra de um jardim ou no lixo orgânico.",
+      "explicacao": "Benjoim e mirra são resinas usadas há séculos em templos de várias tradições, associadas à elevação e à purificação.",
+      "cuidados": [
+        "Faça sempre com janelas abertas, nunca em cômodo fechado e nunca ao dormir.",
+        "Mantenha crianças, gestantes, pessoas com asma, pets e principalmente pássaros longe da fumaça.",
+        "Nunca deixe a brasa sozinha e apoie o defumador em superfície que não queime.",
+        "Benjoim: A resina derrete e pode espirrar: coloque poucos grãos de cada vez. Faz fumaça densa: ventile bem.",
+        "Mirra: Mesmos cuidados do benjoim: pouca quantidade e boa ventilação."
+      ],
+      "banho": {
+        "id": 42,
+        "titulo": "Essência e Suavidade"
+      }
+    },
+    {
+      "id": 10,
+      "titulo": "Defumação de Lua Nova",
+      "secao": "Defumação",
+      "finalidade": "Limpeza Energética",
+      "finalidades_extras": [
+        "Trabalho e Caminhos"
+      ],
+      "quando": "Na primeira noite da lua nova",
+      "duracao": "20 minutos",
+      "frequencia": "1 vez por ciclo lunar.",
+      "direcao": "Fundos → porta e de volta para dentro",
+      "materiais": [
+        {
+          "elemento": "Carvão Vegetal",
+          "quantidade": "2 pedaços pequenos"
+        },
+        {
+          "elemento": "Defumador",
+          "quantidade": "1"
+        },
+        {
+          "elemento": "Alecrim",
+          "quantidade": "1 colher de sopa, seco"
+        },
+        {
+          "elemento": "Louro",
+          "quantidade": "3 folhas"
+        },
+        {
+          "elemento": "Alfazema",
+          "quantidade": "1 colher de sopa, seca"
+        }
+      ],
+      "passos": [
+        "Abra as janelas.",
+        "Acenda o carvão como explicado em \"Como defumar\" e espere ficar em brasa, coberto de uma camada cinza.",
+        "Coloque as ervas sobre a brasa.",
+        "Comece pelos fundos e vá até a porta da frente, limpando o ciclo que terminou.",
+        "Na porta, faça uma pausa. Depois volte para o centro da casa dizendo, em voz baixa, o que você deseja para o novo ciclo."
+      ],
+      "intencao": "Abro espaço para o novo ciclo. Que ele chegue claro e bom.",
+      "descarte": "Espere as cinzas esfriarem por completo, molhe-as e descarte na terra de um jardim ou no lixo orgânico.",
+      "explicacao": "A lua nova marca começos. O caminho de ida limpa o que passou e o de volta traz o que se deseja.",
+      "cuidados": [
+        "Faça sempre com janelas abertas, nunca em cômodo fechado e nunca ao dormir.",
+        "Mantenha crianças, gestantes, pessoas com asma, pets e principalmente pássaros longe da fumaça.",
+        "Nunca deixe a brasa sozinha e apoie o defumador em superfície que não queime.",
+        "Alfazema: A água de alfazema contém álcool: mantenha longe de chamas."
+      ],
+      "banho": {
+        "id": 1,
+        "titulo": "Ímpeto e Direção"
+      }
+    },
+    {
+      "id": 11,
+      "titulo": "Água de Alfazema no Chão",
+      "secao": "Limpeza da casa",
+      "finalidade": "Limpeza Energética",
+      "finalidades_extras": [],
+      "quando": "Qualquer dia, de preferência pela manhã",
+      "duracao": "O tempo da limpeza",
+      "frequencia": "1 vez por semana.",
+      "direcao": "Fundos → porta da frente",
+      "materiais": [
+        {
+          "elemento": "Balde e Pano",
+          "quantidade": "1 balde e 1 pano limpo"
+        },
+        {
+          "elemento": "Água",
+          "quantidade": "cerca de 5 litros"
+        },
+        {
+          "elemento": "Alfazema",
+          "quantidade": "1 tampinha de água de alfazema ou 2 colheres de sopa de flores fervidas e coadas"
+        }
+      ],
+      "passos": [
+        "Faça antes a limpeza comum do chão.",
+        "Misture a alfazema na água do balde.",
+        "Passe o pano bem torcido, começando pelos fundos e terminando na porta de entrada.",
+        "Passe também na soleira da porta.",
+        "Descarte o que sobrar no ralo de fora da casa ou na terra."
+      ],
+      "intencao": "Esta casa fica limpa, perfumada e em paz.",
+      "descarte": "Descarte a água no ralo externo ou na terra. Lave o pano.",
+      "explicacao": "A alfazema é associada à paz e à proteção suave da casa.",
+      "cuidados": [
+        "Em pisos de madeira ou laminado, use o pano apenas úmido.",
+        "Alfazema: A água de alfazema contém álcool: mantenha longe de chamas."
+      ],
+      "banho": {
+        "id": 15,
+        "titulo": "Sutileza e Calma"
+      }
+    },
+    {
+      "id": 12,
+      "titulo": "Limpeza do Chão com Anil",
+      "secao": "Limpeza da casa",
+      "finalidade": "Proteção",
+      "finalidades_extras": [
+        "Limpeza Energética"
+      ],
+      "quando": "Quando sentir a casa pesada ou depois de visitas difíceis",
+      "duracao": "O tempo da limpeza",
+      "frequencia": "A cada 15 dias, no máximo.",
+      "direcao": "Fundos → porta da frente",
+      "materiais": [
+        {
+          "elemento": "Balde e Pano",
+          "quantidade": "1 balde e 1 pano escuro ou velho"
+        },
+        {
+          "elemento": "Água",
+          "quantidade": "cerca de 5 litros"
+        },
+        {
+          "elemento": "Anil",
+          "quantidade": "1 pedra ou 1 colher de chá rasa de pó"
+        }
+      ],
+      "passos": [
+        "Teste antes num canto escondido do piso, para ver se o anil mancha.",
+        "Coloque luvas e dissolva o anil na água até ficar azul.",
+        "Passe o pano começando pelos fundos e seguindo até a porta da frente.",
+        "Descarte a água fora de casa, no ralo externo ou na terra.",
+        "Enxágue bem o balde."
+      ],
+      "intencao": "O azul do anil limpa e protege cada canto desta casa.",
+      "descarte": "Água fora de casa. Lave o balde e guarde o pano só para isso.",
+      "explicacao": "O anil é tradicionalmente usado para limpar e proteger ambientes.",
+      "cuidados": [
+        "Anil: Mancha rejunte, madeira, pedras porosas, tecidos e a pele: use luvas e teste num canto escondido antes. Não ingerir."
+      ],
+      "banho": {
+        "id": 46,
+        "titulo": "Fechamento de Corpo"
+      }
+    },
+    {
+      "id": 13,
+      "titulo": "Borrifador de Proteção com Anil, Sal e Alecrim",
+      "secao": "Limpeza da casa",
+      "finalidade": "Proteção",
+      "finalidades_extras": [],
+      "quando": "Qualquer dia",
+      "duracao": "10 minutos",
+      "frequencia": "Uma vez por semana. Prepare uma nova água a cada 7 dias.",
+      "direcao": "Cantos, portas e janelas",
+      "materiais": [
+        {
+          "elemento": "Borrifador",
+          "quantidade": "1, de 500 ml"
+        },
+        {
+          "elemento": "Água",
+          "quantidade": "500 ml"
+        },
+        {
+          "elemento": "Anil",
+          "quantidade": "1 pitada pequena"
+        },
+        {
+          "elemento": "Sal Grosso",
+          "quantidade": "1 colher de sopa"
+        },
+        {
+          "elemento": "Alecrim",
+          "quantidade": "1 ramo"
+        }
+      ],
+      "passos": [
+        "Dissolva o sal e a pitada de anil na água.",
+        "Coloque o ramo de alecrim dentro do borrifador e deixe descansar por 1 hora.",
+        "Borrife no ar, de longe, nos cantos dos cômodos, atrás das portas e nos batentes de portas e janelas.",
+        "Nunca borrife em tecidos, sofás, cortinas, paredes claras, plantas, pessoas ou pets."
+      ],
+      "intencao": "Cada canto desta casa fica limpo e guardado.",
+      "descarte": "Depois de 7 dias, descarte o que sobrar no ralo e lave o borrifador.",
+      "explicacao": "O sal e o anil são usados na tradição para limpeza, e o alecrim para renovação.",
+      "cuidados": [
+        "Anil: Mancha rejunte, madeira, pedras porosas, tecidos e a pele: use luvas e teste num canto escondido antes. Não ingerir.",
+        "Sal Grosso: Sal em excesso faz mal a pets: deixe fora do alcance deles. Descarte sempre no ralo com água corrente."
+      ],
+      "banho": {
+        "id": 44,
+        "titulo": "Blindagem Energética"
+      }
+    },
+    {
+      "id": 14,
+      "titulo": "Copo com Carvão Atrás da Porta",
+      "secao": "Limpeza da casa",
+      "finalidade": "Proteção",
+      "finalidades_extras": [],
+      "quando": "Qualquer dia",
+      "duracao": "5 minutos para montar",
+      "frequencia": "Troque a cada 7 dias, ou antes, se o carvão afundar.",
+      "direcao": "Atrás da porta de entrada",
+      "materiais": [
+        {
+          "elemento": "Copo de Vidro",
+          "quantidade": "1, liso"
+        },
+        {
+          "elemento": "Água",
+          "quantidade": "até três quartos do copo"
+        },
+        {
+          "elemento": "Carvão Vegetal",
+          "quantidade": "1 pedaço pequeno, apagado e frio"
+        }
+      ],
+      "passos": [
+        "Encha o copo com água.",
+        "Coloque o pedaço de carvão (apagado e frio) dentro dele.",
+        "Deixe atrás da porta de entrada, num lugar onde o copo não vá ser derrubado.",
+        "Observe: na tradição popular, quando o carvão afunda, diz-se que ele absorveu carga, e é hora de trocar."
+      ],
+      "intencao": "O que chega pesado fica aqui e não entra na minha casa.",
+      "descarte": "Água no ralo ou na terra, carvão no lixo. Lave o copo antes de usar de novo.",
+      "explicacao": "O carvão é tradicionalmente usado como \"absorvedor\" do que chega pela porta.",
+      "cuidados": [],
+      "banho": {
+        "id": 47,
+        "titulo": "Vigilância Serena"
+      }
+    },
+    {
+      "id": 15,
+      "titulo": "Copo d'Água com Sal Grosso",
+      "secao": "Limpeza da casa",
+      "finalidade": "Limpeza Energética",
+      "finalidades_extras": [],
+      "quando": "Qualquer dia",
+      "duracao": "5 minutos para montar",
+      "frequencia": "Troque a cada 7 dias.",
+      "direcao": "Atrás da porta ou no cômodo mais pesado",
+      "materiais": [
+        {
+          "elemento": "Copo de Vidro",
+          "quantidade": "1, liso"
+        },
+        {
+          "elemento": "Água",
+          "quantidade": "até três quartos do copo"
+        },
+        {
+          "elemento": "Sal Grosso",
+          "quantidade": "1 colher de sopa"
+        }
+      ],
+      "passos": [
+        "Coloque o sal no fundo do copo e complete com água.",
+        "Deixe atrás da porta de entrada ou no cômodo que estiver mais pesado.",
+        "Depois de 7 dias, descarte e, se quiser, monte um novo."
+      ],
+      "intencao": "Que o sal recolha o que pesa nesta casa.",
+      "descarte": "Descarte no ralo, com água corrente. Lave o copo.",
+      "explicacao": "O sal grosso é um dos elementos mais usados na tradição para absorver e neutralizar cargas.",
+      "cuidados": [
+        "Sal Grosso: Sal em excesso faz mal a pets: deixe fora do alcance deles. Descarte sempre no ralo com água corrente."
+      ],
+      "banho": {
+        "id": 14,
+        "titulo": "Alívio Mental"
+      }
+    },
+    {
+      "id": 16,
+      "titulo": "Pratinhos de Sal Grosso nos Cantos",
+      "secao": "Limpeza da casa",
+      "finalidade": "Proteção",
+      "finalidades_extras": [
+        "Limpeza Energética"
+      ],
+      "quando": "Depois de discussões, visitas pesadas ou mudanças",
+      "duracao": "3 dias",
+      "frequencia": "Quando sentir necessidade.",
+      "direcao": "Cantos do cômodo",
+      "materiais": [
+        {
+          "elemento": "Pires",
+          "quantidade": "4, um para cada canto"
+        },
+        {
+          "elemento": "Sal Grosso",
+          "quantidade": "2 colheres de sopa por pires"
+        }
+      ],
+      "passos": [
+        "Coloque um pires com sal em cada canto do cômodo mais pesado.",
+        "Deixe por 3 dias.",
+        "No terceiro dia, recolha tudo."
+      ],
+      "intencao": "Os cantos desta casa ficam limpos e firmes.",
+      "descarte": "Descarte o sal no ralo com água corrente e lave os pires.",
+      "explicacao": "Os cantos são, na tradição, lugares onde a energia \"para\". O sal recolhe o que fica ali.",
+      "cuidados": [
+        "Sal Grosso: Sal em excesso faz mal a pets: deixe fora do alcance deles. Descarte sempre no ralo com água corrente."
+      ],
+      "banho": {
+        "id": 17,
+        "titulo": "Corte de Oposição"
+      }
+    },
+    {
+      "id": 17,
+      "titulo": "Lavagem da Soleira e da Porta de Entrada",
+      "secao": "Limpeza da casa",
+      "finalidade": "Trabalho e Caminhos",
+      "finalidades_extras": [
+        "Proteção"
+      ],
+      "quando": "Segunda-feira de manhã",
+      "duracao": "20 minutos",
+      "frequencia": "1 vez por semana ou a cada 15 dias.",
+      "direcao": "De dentro para fora",
+      "materiais": [
+        {
+          "elemento": "Água",
+          "quantidade": "2 litros"
+        },
+        {
+          "elemento": "Louro",
+          "quantidade": "3 folhas"
+        },
+        {
+          "elemento": "Alecrim",
+          "quantidade": "1 ramo"
+        },
+        {
+          "elemento": "Sal Grosso",
+          "quantidade": "1 colher de sopa"
+        },
+        {
+          "elemento": "Balde e Pano",
+          "quantidade": "1 balde e 1 pano"
+        }
+      ],
+      "passos": [
+        "Ferva a água com as folhas de louro por 3 minutos.",
+        "Desligue o fogo, acrescente o alecrim, tampe e deixe abafar por 10 minutos.",
+        "Coe, acrescente o sal e espere esfriar.",
+        "Lave a soleira e a porta de entrada de dentro para fora, e depois a área logo em frente à porta.",
+        "Seque bem o piso."
+      ],
+      "intencao": "Por esta porta entram oportunidades. O que não serve, sai.",
+      "descarte": "Descarte o que sobrar na terra ou no ralo externo.",
+      "explicacao": "A soleira é a fronteira entre a casa e a rua. O louro e o alecrim são associados a caminhos abertos, e o sal à limpeza.",
+      "cuidados": [
+        "Em apartamento ou corredor de condomínio, use pano úmido em vez de jogar água.",
+        "Sal Grosso: Sal em excesso faz mal a pets: deixe fora do alcance deles. Descarte sempre no ralo com água corrente."
+      ],
+      "banho": {
+        "id": 25,
+        "titulo": "Abertura Profissional"
+      }
+    },
+    {
+      "id": 18,
+      "titulo": "Limpeza da Casa Depois de Brigas ou Visitas Pesadas",
+      "secao": "Limpeza da casa",
+      "finalidade": "Limpeza Energética",
+      "finalidades_extras": [
+        "Amor e Magnetismo"
+      ],
+      "quando": "No mesmo dia ou no dia seguinte",
+      "duracao": "30 minutos",
+      "frequencia": "Quando acontecer.",
+      "direcao": "De dentro para fora",
+      "materiais": [
+        {
+          "elemento": "Balde e Pano",
+          "quantidade": "1 balde e 1 pano"
+        },
+        {
+          "elemento": "Água",
+          "quantidade": "cerca de 5 litros"
+        },
+        {
+          "elemento": "Alfazema",
+          "quantidade": "1 tampinha de água de alfazema"
+        },
+        {
+          "elemento": "Copo de Vidro",
+          "quantidade": "1"
+        },
+        {
+          "elemento": "Sal Grosso",
+          "quantidade": "1 colher de sopa"
+        }
+      ],
+      "passos": [
+        "Abra todas as janelas por pelo menos 15 minutos.",
+        "Varra a casa de dentro para fora.",
+        "Passe pano com água de alfazema, dos fundos para a frente.",
+        "Monte um copo d'água com sal grosso no cômodo onde a briga ou a visita aconteceu e deixe até o dia seguinte."
+      ],
+      "intencao": "O que foi dito aqui se dissolve. Fica só o que é bom.",
+      "descarte": "No dia seguinte, descarte a água do copo no ralo e lave-o.",
+      "explicacao": "Ventilar, varrer e limpar com alfazema é a forma mais simples, na tradição, de \"virar a página\" de um momento difícil.",
+      "cuidados": [
+        "Alfazema: A água de alfazema contém álcool: mantenha longe de chamas.",
+        "Sal Grosso: Sal em excesso faz mal a pets: deixe fora do alcance deles. Descarte sempre no ralo com água corrente."
+      ],
+      "banho": {
+        "id": 18,
+        "titulo": "Reestruturação da Aura"
+      }
+    },
+    {
+      "id": 19,
+      "titulo": "Vela Branca e Copo d'Água para o Anjo da Guarda",
+      "secao": "Velas",
+      "finalidade": "Proteção",
+      "finalidades_extras": [],
+      "quando": "Segunda-feira, ou quando sentir necessidade de proteção",
+      "duracao": "Até a vela queimar, com alguém em casa",
+      "frequencia": "1 vez por semana.",
+      "direcao": "Em local alto e firme",
+      "materiais": [
+        {
+          "elemento": "Vela",
+          "quantidade": "1 branca"
+        },
+        {
+          "elemento": "Pires",
+          "quantidade": "1"
+        },
+        {
+          "elemento": "Copo de Vidro",
+          "quantidade": "1, com água"
+        }
+      ],
+      "passos": [
+        "Escolha um lugar alto e firme, longe de cortinas, papéis e plantas secas.",
+        "Coloque a vela no pires e o copo com água ao lado.",
+        "Acenda a vela e faça sua oração ao anjo da guarda, com suas próprias palavras.",
+        "Deixe a vela queimar até o fim, sempre com alguém em casa."
+      ],
+      "intencao": "Meu anjo da guarda, ilumina meus caminhos e me protege.",
+      "descarte": "A água do copo vai para uma planta ou para o ralo. Retire os restos de cera do pires.",
+      "explicacao": "A vela branca é associada à paz e à proteção. O copo d'água, na tradição, recolhe o que é pesado.",
+      "cuidados": [
+        "Nunca deixe a vela acesa sozinha, ao dormir ou perto de cortinas, papéis, crianças e pets."
+      ],
+      "banho": {
+        "id": 47,
+        "titulo": "Vigilância Serena"
+      }
+    },
+    {
+      "id": 20,
+      "titulo": "Vela de 7 Dias para Abertura de Caminhos",
+      "secao": "Velas",
+      "finalidade": "Trabalho e Caminhos",
+      "finalidades_extras": [],
+      "quando": "Segunda-feira, ao começar uma busca de emprego ou um projeto",
+      "duracao": "7 dias",
+      "frequencia": "Quando iniciar algo novo.",
+      "direcao": "Num lugar fixo da casa",
+      "materiais": [
+        {
+          "elemento": "Vela de 7 Dias",
+          "quantidade": "1, amarela ou branca"
+        },
+        {
+          "elemento": "Pires",
+          "quantidade": "1 prato de louça para apoiar"
+        },
+        {
+          "elemento": "Papel e Caneta",
+          "quantidade": "1 papel pequeno"
+        },
+        {
+          "elemento": "Louro",
+          "quantidade": "3 folhas"
+        },
+        {
+          "elemento": "Mel",
+          "quantidade": "1 fio"
+        }
+      ],
+      "passos": [
+        "Escreva no papel o objetivo, de forma simples e no presente.",
+        "Coloque o papel no prato e passe sobre ele um fio de mel.",
+        "Coloque a vela sobre o papel e as folhas de louro ao redor.",
+        "Acenda, diga sua intenção e deixe queimar ao longo dos dias.",
+        "Se for sair ou dormir, abafe a chama e reacenda quando voltar."
+      ],
+      "intencao": "Os caminhos se abrem para mim, um passo de cada vez.",
+      "descarte": "Quando a vela terminar, enterre o papel e as folhas de louro na terra de um vaso ou jardim.",
+      "explicacao": "A vela amarela é associada a caminhos e oportunidades, o louro à vitória e o mel a adoçar o percurso.",
+      "cuidados": [
+        "Nunca deixe a vela acesa sozinha, ao dormir ou perto de cortinas, papéis, crianças e pets.",
+        "Mel: Atrai formigas: use pote bem fechado e limpe o que escorrer."
+      ],
+      "banho": {
+        "id": 27,
+        "titulo": "Conquista de Metas"
+      }
+    },
+    {
+      "id": 21,
+      "titulo": "Vela Verde da Prosperidade",
+      "secao": "Velas",
+      "finalidade": "Prosperidade",
+      "finalidades_extras": [],
+      "quando": "Quinta-feira, de preferência na lua crescente",
+      "duracao": "Até a vela queimar, com alguém em casa",
+      "frequencia": "1 vez por mês.",
+      "direcao": "Perto de onde você guarda dinheiro ou trabalha",
+      "materiais": [
+        {
+          "elemento": "Vela",
+          "quantidade": "1 verde"
+        },
+        {
+          "elemento": "Pires",
+          "quantidade": "1"
+        },
+        {
+          "elemento": "Moedas",
+          "quantidade": "3"
+        },
+        {
+          "elemento": "Canela em Pó",
+          "quantidade": "1 pitada"
+        }
+      ],
+      "passos": [
+        "Coloque a vela no pires e as 3 moedas ao redor dela.",
+        "Espalhe uma pitada de canela em pó sobre as moedas, longe do pavio.",
+        "Acenda a vela e diga sua intenção.",
+        "Quando a vela terminar, guarde as moedas na carteira ou no Pote da Fartura."
+      ],
+      "intencao": "O dinheiro circula, cresce e chega até mim.",
+      "descarte": "Restos de cera no lixo. As moedas ficam com você.",
+      "explicacao": "O verde é associado ao crescimento, as moedas ao dinheiro e a canela ao movimento.",
+      "cuidados": [
+        "Nunca deixe a vela acesa sozinha, ao dormir ou perto de cortinas, papéis, crianças e pets.",
+        "Canela em Pó: Nunca coloque canela em pó sobre o pavio ou a chama: ela pode faiscar. Evite contato com os olhos."
+      ],
+      "banho": {
+        "id": 33,
+        "titulo": "Fartura Conquistada"
+      }
+    },
+    {
+      "id": 22,
+      "titulo": "Vela Rosa para Harmonia do Lar e Amor-Próprio",
+      "secao": "Velas",
+      "finalidade": "Amor e Magnetismo",
+      "finalidades_extras": [
+        "Autoestima e Poder"
+      ],
+      "quando": "Sexta-feira",
+      "duracao": "Até a vela queimar, com alguém em casa",
+      "frequencia": "Quando sentir necessidade.",
+      "direcao": "No quarto ou na sala",
+      "materiais": [
+        {
+          "elemento": "Vela",
+          "quantidade": "1 rosa"
+        },
+        {
+          "elemento": "Pires",
+          "quantidade": "1"
+        },
+        {
+          "elemento": "Açúcar",
+          "quantidade": "1 colher de sopa"
+        },
+        {
+          "elemento": "Pétalas de Rosa",
+          "quantidade": "1 punhado"
+        }
+      ],
+      "passos": [
+        "Faça um círculo de açúcar no pires.",
+        "Coloque a vela no centro e as pétalas sobre o açúcar.",
+        "Acenda a vela e diga a intenção."
+      ],
+      "intencao": "Que o carinho volte a morar nesta casa e em mim.",
+      "descarte": "Quando a vela terminar, coloque as pétalas e o açúcar na terra de um vaso.",
+      "explicacao": "O rosa é associado ao afeto, o açúcar à doçura e as pétalas ao amor.",
+      "cuidados": [
+        "Nunca deixe a vela acesa sozinha, ao dormir ou perto de cortinas, papéis, crianças e pets.",
+        "Açúcar: Atrai formigas: varra ou limpe depois."
+      ],
+      "banho": {
+        "id": 20,
+        "titulo": "Acolhimento do Coração"
+      }
+    },
+    {
+      "id": 23,
+      "titulo": "Vela de Agradecimento",
+      "secao": "Velas",
+      "finalidade": "Autoestima e Poder",
+      "finalidades_extras": [],
+      "quando": "Depois de uma conquista, de uma boa notícia ou no seu aniversário",
+      "duracao": "Até a vela queimar, com alguém em casa",
+      "frequencia": "Sempre que quiser agradecer.",
+      "direcao": "Num lugar especial da casa",
+      "materiais": [
+        {
+          "elemento": "Vela",
+          "quantidade": "1 branca"
+        },
+        {
+          "elemento": "Pires",
+          "quantidade": "1"
+        },
+        {
+          "elemento": "Papel e Caneta",
+          "quantidade": "1 papel"
+        }
+      ],
+      "passos": [
+        "Escreva no papel tudo o que você quer agradecer.",
+        "Acenda a vela e leia o papel em voz alta.",
+        "Deixe o papel ao lado da vela, nunca embaixo dela."
+      ],
+      "intencao": "Agradeço o que recebi e o caminho que me trouxe até aqui.",
+      "descarte": "Guarde o papel no Pote de Pedidos e Gratidão.",
+      "explicacao": "Agradecer, na tradição, também é um ritual: reconhece o que chegou e abre espaço para o que vem.",
+      "cuidados": [
+        "Nunca deixe a vela acesa sozinha, ao dormir ou perto de cortinas, papéis, crianças e pets."
+      ],
+      "banho": {
+        "id": 38,
+        "titulo": "Leveza sem Cobrança"
+      }
+    },
+    {
+      "id": 24,
+      "titulo": "Pote de Mel para Adoçar o Ambiente de Trabalho",
+      "secao": "Mel e açúcar",
+      "finalidade": "Trabalho e Caminhos",
+      "finalidades_extras": [],
+      "quando": "Segunda-feira",
+      "duracao": "15 minutos para montar",
+      "frequencia": "Renove a cada 3 meses.",
+      "direcao": "Em lugar discreto",
+      "materiais": [
+        {
+          "elemento": "Pote de Vidro",
+          "quantidade": "1 pequeno, com tampa"
+        },
+        {
+          "elemento": "Papel e Caneta",
+          "quantidade": "1 papel"
+        },
+        {
+          "elemento": "Mel",
+          "quantidade": "o suficiente para cobrir o papel"
+        },
+        {
+          "elemento": "Canela em Pau",
+          "quantidade": "1 pedaço"
+        }
+      ],
+      "passos": [
+        "Escreva no papel o nome do seu local de trabalho e o que deseja para ele, como harmonia, respeito ou reconhecimento.",
+        "Dobre o papel em direção a você.",
+        "Coloque o papel e a canela no pote e cubra com mel.",
+        "Feche bem e guarde em lugar discreto, na sua casa."
+      ],
+      "intencao": "Que o meu ambiente de trabalho seja doce, justo e respeitoso.",
+      "descarte": "Depois de 3 meses, enterre o conteúdo na terra e lave o pote.",
+      "explicacao": "O mel é associado a adoçar situações e a canela ao movimento. Este ritual é sobre o ambiente, nunca sobre a vontade de uma pessoa específica.",
+      "cuidados": [
+        "Mel: Atrai formigas: use pote bem fechado e limpe o que escorrer."
+      ],
+      "banho": {
+        "id": 26,
+        "titulo": "Clareza Operacional"
+      }
+    },
+    {
+      "id": 25,
+      "titulo": "Açúcar e Canela na Porta da Frente",
+      "secao": "Mel e açúcar",
+      "finalidade": "Prosperidade",
+      "finalidades_extras": [],
+      "quando": "No primeiro dia do mês, pela manhã",
+      "duracao": "5 minutos",
+      "frequencia": "1 vez por mês.",
+      "direcao": "Da porta para dentro",
+      "materiais": [
+        {
+          "elemento": "Açúcar",
+          "quantidade": "1 colher de sopa"
+        },
+        {
+          "elemento": "Canela em Pó",
+          "quantidade": "1 colher de sopa"
+        }
+      ],
+      "passos": [
+        "Misture o açúcar e a canela na palma da mão.",
+        "Fique na porta de entrada, de frente para dentro da casa.",
+        "Sopre a mistura para dentro, dizendo sua intenção.",
+        "Depois de algumas horas, varra da porta para dentro e recolha."
+      ],
+      "intencao": "Que neste mês a prosperidade entre e fique.",
+      "descarte": "Descarte o que varrer no lixo orgânico.",
+      "explicacao": "A canela é associada à prosperidade e o açúcar à doçura. Soprar para dentro simboliza convidar o que é bom.",
+      "cuidados": [
+        "Atrai formigas: não esqueça de varrer.",
+        "Açúcar: Atrai formigas: varra ou limpe depois.",
+        "Canela em Pó: Nunca coloque canela em pó sobre o pavio ou a chama: ela pode faiscar. Evite contato com os olhos."
+      ],
+      "banho": {
+        "id": 34,
+        "titulo": "Dinamismo Financeiro"
+      }
+    },
+    {
+      "id": 26,
+      "titulo": "Adoçamento de uma Situação Difícil",
+      "secao": "Mel e açúcar",
+      "finalidade": "Amor e Magnetismo",
+      "finalidades_extras": [
+        "Trabalho e Caminhos"
+      ],
+      "quando": "Antes de uma conversa difícil, uma reunião ou um reencontro",
+      "duracao": "Até a vela queimar, com alguém em casa",
+      "frequencia": "Quando houver a situação.",
+      "direcao": "Num lugar tranquilo da casa",
+      "materiais": [
+        {
+          "elemento": "Pires",
+          "quantidade": "1"
+        },
+        {
+          "elemento": "Papel e Caneta",
+          "quantidade": "1 papel"
+        },
+        {
+          "elemento": "Mel",
+          "quantidade": "1 colher de sopa"
+        },
+        {
+          "elemento": "Vela",
+          "quantidade": "1 branca"
+        }
+      ],
+      "passos": [
+        "Escreva no papel a situação, e não o nome de uma pessoa. Por exemplo: \"a conversa de domingo com a minha família\".",
+        "Coloque o papel no pires e passe um fio de mel sobre ele.",
+        "Coloque a vela em outro pires, ao lado, nunca sobre o papel.",
+        "Acenda a vela e diga a intenção."
+      ],
+      "intencao": "Que esta situação se resolva com calma, respeito e doçura para todos.",
+      "descarte": "Quando a vela terminar, enterre o papel na terra.",
+      "explicacao": "O adoçamento, neste guia, suaviza situações. Ele não serve para mudar o sentimento ou a vontade de ninguém.",
+      "cuidados": [
+        "Nunca deixe a vela acesa sozinha, ao dormir ou perto de cortinas, papéis, crianças e pets.",
+        "Mel: Atrai formigas: use pote bem fechado e limpe o que escorrer."
+      ],
+      "banho": {
+        "id": 10,
+        "titulo": "Equilíbrio Escarlate"
+      }
+    },
+    {
+      "id": 27,
+      "titulo": "Carta de Intenções da Lua Nova",
+      "secao": "Lua e pedidos",
+      "finalidade": "Trabalho e Caminhos",
+      "finalidades_extras": [
+        "Autoestima e Poder"
+      ],
+      "quando": "Na primeira noite da lua nova",
+      "duracao": "20 minutos",
+      "frequencia": "1 vez por ciclo lunar.",
+      "direcao": "Num lugar tranquilo",
+      "materiais": [
+        {
+          "elemento": "Papel e Caneta",
+          "quantidade": "1 papel"
+        },
+        {
+          "elemento": "Vela",
+          "quantidade": "1 branca"
+        },
+        {
+          "elemento": "Pires",
+          "quantidade": "1"
+        }
+      ],
+      "passos": [
+        "Acenda a vela e respire com calma por alguns instantes.",
+        "Escreva de 3 a 5 intenções para este ciclo, no presente, como se já estivessem acontecendo.",
+        "Leia em voz alta, dobre o papel e guarde num lugar especial.",
+        "Na lua cheia, releia e agradeça. Na lua minguante, você pode fazer a Queima do que Quero Deixar Ir ou guardar no Pote de Pedidos e Gratidão."
+      ],
+      "intencao": "Neste ciclo eu planto o que quero colher.",
+      "descarte": "Guarde o papel até o fim do ciclo.",
+      "explicacao": "A lua nova é associada aos começos e à semeadura de intenções.",
+      "cuidados": [
+        "Nunca deixe a vela acesa sozinha, ao dormir ou perto de cortinas, papéis, crianças e pets."
+      ],
+      "banho": {
+        "id": 3,
+        "titulo": "Destrave Material"
+      }
+    },
+    {
+      "id": 28,
+      "titulo": "Ritual de Crescimento da Lua Crescente",
+      "secao": "Lua e pedidos",
+      "finalidade": "Prosperidade",
+      "finalidades_extras": [],
+      "quando": "Durante a lua crescente",
+      "duracao": "10 minutos",
+      "frequencia": "1 vez por ciclo lunar.",
+      "direcao": "Perto de uma janela",
+      "materiais": [
+        {
+          "elemento": "Planta em Vaso",
+          "quantidade": "1"
+        },
+        {
+          "elemento": "Moedas",
+          "quantidade": "1"
+        },
+        {
+          "elemento": "Água",
+          "quantidade": "1 copo"
+        }
+      ],
+      "passos": [
+        "Enterre a moeda na terra do vaso.",
+        "Regue a planta dizendo a sua intenção de crescimento.",
+        "Cuide da planta com atenção ao longo do ciclo."
+      ],
+      "intencao": "Assim como esta planta, o que eu cultivo cresce.",
+      "descarte": "A moeda pode ficar no vaso.",
+      "explicacao": "A lua crescente é associada ao crescimento. Cuidar da planta é cuidar, simbolicamente, do que se pediu.",
+      "cuidados": [],
+      "banho": {
+        "id": 32,
+        "titulo": "Estratégia e Multiplicação"
+      }
+    },
+    {
+      "id": 29,
+      "titulo": "Água de Lua Cheia",
+      "secao": "Lua e pedidos",
+      "finalidade": "Autoestima e Poder",
+      "finalidades_extras": [
+        "Limpeza Energética"
+      ],
+      "quando": "Na noite de lua cheia",
+      "duracao": "Uma noite",
+      "frequencia": "1 vez por ciclo lunar.",
+      "direcao": "Janela ou quintal onde chegue a luz da lua",
+      "materiais": [
+        {
+          "elemento": "Jarra de Vidro",
+          "quantidade": "1, com tampa"
+        },
+        {
+          "elemento": "Água",
+          "quantidade": "filtrada"
+        }
+      ],
+      "passos": [
+        "Encha a jarra com água filtrada e tampe.",
+        "Deixe na janela ou no quintal, onde chegue a luz da lua.",
+        "Recolha pela manhã, antes do sol forte.",
+        "Use para regar plantas, no último enxágue do banho de higiene ou na água de limpeza da casa."
+      ],
+      "intencao": "Recebo a luz da lua cheia e tudo o que ela ilumina em mim.",
+      "descarte": "Use em até uma semana. O que sobrar vai para as plantas.",
+      "explicacao": "A lua cheia é associada à plenitude e à força.",
+      "cuidados": [
+        "Não beba a água: ela é para uso externo e para as plantas."
+      ],
+      "banho": {
+        "id": 41,
+        "titulo": "Radiância Vital"
+      }
+    },
+    {
+      "id": 30,
+      "titulo": "Queima do que Quero Deixar Ir",
+      "secao": "Lua e pedidos",
+      "finalidade": "Limpeza Energética",
+      "finalidades_extras": [],
+      "quando": "Na lua minguante",
+      "duracao": "15 minutos",
+      "frequencia": "1 vez por ciclo lunar.",
+      "direcao": "Sobre a pia ou ao ar livre",
+      "materiais": [
+        {
+          "elemento": "Papel e Caneta",
+          "quantidade": "1 papel pequeno"
+        },
+        {
+          "elemento": "Vela",
+          "quantidade": "1 branca"
+        },
+        {
+          "elemento": "Pires",
+          "quantidade": "1, de louça ou metal"
+        },
+        {
+          "elemento": "Água",
+          "quantidade": "1 copo, por perto"
+        }
+      ],
+      "passos": [
+        "Escreva no papel o que você quer deixar ir: um hábito, uma mágoa, um medo.",
+        "Acenda a vela sobre a pia ou ao ar livre, longe de tudo o que pega fogo.",
+        "Leia o papel, encoste a pontinha na chama e solte-o imediatamente no pires ou na pia.",
+        "Deixe queimar por completo e jogue a água por cima."
+      ],
+      "intencao": "Eu solto o que já não me serve. Fica mais espaço para mim.",
+      "descarte": "Molhe bem as cinzas e descarte na terra ou no lixo.",
+      "explicacao": "A lua minguante é associada a encerrar e soltar. O fogo transforma o que foi escrito.",
+      "cuidados": [
+        "Nunca deixe a vela acesa sozinha, ao dormir ou perto de cortinas, papéis, crianças e pets.",
+        "Nunca segure o papel queimando. Use papel pequeno e tenha sempre água por perto."
+      ],
+      "banho": {
+        "id": 5,
+        "titulo": "Corte de Recuo"
+      }
+    },
+    {
+      "id": 31,
+      "titulo": "Pote de Pedidos e Gratidão",
+      "secao": "Lua e pedidos",
+      "finalidade": "Autoestima e Poder",
+      "finalidades_extras": [],
+      "quando": "Comece num dia especial: lua nova, ano novo ou aniversário",
+      "duracao": "Alguns minutos por dia",
+      "frequencia": "Um papel por dia ou por semana.",
+      "direcao": "Num lugar visível da casa",
+      "materiais": [
+        {
+          "elemento": "Pote de Vidro",
+          "quantidade": "1, com tampa"
+        },
+        {
+          "elemento": "Papel e Caneta",
+          "quantidade": "papéis pequenos"
+        }
+      ],
+      "passos": [
+        "Separe um pote bonito, só para isso.",
+        "Todos os dias, ou todas as semanas, escreva num papelzinho um pedido ou um agradecimento e coloque no pote.",
+        "No fim do ano ou no seu aniversário, abra e releia tudo."
+      ],
+      "intencao": "Eu reconheço o que já chegou e confio no que está por vir.",
+      "descarte": "Depois de reler, guarde os papéis que quiser e queime ou enterre os demais.",
+      "explicacao": "Registrar pedidos e gratidões ajuda a perceber o que se realizou ao longo do tempo.",
+      "cuidados": [],
+      "banho": {
+        "id": 40,
+        "titulo": "Acolhimento da Alma"
+      }
+    },
+    {
+      "id": 32,
+      "titulo": "Patuá de Ervas de Proteção",
+      "secao": "Proteção portátil",
+      "finalidade": "Proteção",
+      "finalidades_extras": [],
+      "quando": "Na lua nova",
+      "duracao": "15 minutos para montar",
+      "frequencia": "Troque as ervas a cada ciclo lunar.",
+      "direcao": "Na bolsa ou no bolso",
+      "materiais": [
+        {
+          "elemento": "Saquinho de Pano",
+          "quantidade": "1 pequeno, branco ou vermelho"
+        },
+        {
+          "elemento": "Arruda",
+          "quantidade": "1 colher de chá, seca"
+        },
+        {
+          "elemento": "Alecrim",
+          "quantidade": "1 colher de chá, seco"
+        },
+        {
+          "elemento": "Cravo-da-Índia",
+          "quantidade": "3 cravos"
+        },
+        {
+          "elemento": "Sal Grosso",
+          "quantidade": "1 pitada"
+        }
+      ],
+      "passos": [
+        "Coloque as ervas, os cravos e o sal no saquinho.",
+        "Feche com um nó ou costure.",
+        "Segure o patuá entre as mãos e diga a intenção.",
+        "Leve na bolsa ou no bolso."
+      ],
+      "intencao": "Por onde eu for, levo comigo a minha proteção.",
+      "descarte": "A cada lua nova, coloque as ervas antigas na terra e monte um novo.",
+      "explicacao": "O patuá é uma tradição popular brasileira de levar consigo um pequeno amuleto de proteção.",
+      "cuidados": [
+        "Arruda: Pode irritar a pele em contato com o sol. Contraindicada para gestantes. Tóxica para animais se ingerida.",
+        "Sal Grosso: Sal em excesso faz mal a pets: deixe fora do alcance deles. Descarte sempre no ralo com água corrente."
+      ],
+      "banho": {
+        "id": 48,
+        "titulo": "Corte de Intrigas"
+      }
+    },
+    {
+      "id": 33,
+      "titulo": "Garrafa de Proteção da Casa",
+      "secao": "Proteção portátil",
+      "finalidade": "Proteção",
+      "finalidades_extras": [],
+      "quando": "Ao se mudar ou quando quiser reforçar a proteção da casa",
+      "duracao": "20 minutos para montar",
+      "frequencia": "Renove a cada ano.",
+      "direcao": "Perto da entrada da casa",
+      "materiais": [
+        {
+          "elemento": "Pote de Vidro",
+          "quantidade": "1 garrafa ou pote pequeno com tampa"
+        },
+        {
+          "elemento": "Sal Grosso",
+          "quantidade": "até um terço do pote"
+        },
+        {
+          "elemento": "Alecrim",
+          "quantidade": "1 colher de sopa, seco"
+        },
+        {
+          "elemento": "Arruda",
+          "quantidade": "1 colher de sopa, seca"
+        },
+        {
+          "elemento": "Cravo-da-Índia",
+          "quantidade": "7 cravos"
+        },
+        {
+          "elemento": "Pimenta Seca",
+          "quantidade": "1 colher de sopa"
+        }
+      ],
+      "passos": [
+        "Coloque os ingredientes em camadas, começando pelo sal.",
+        "Feche bem a tampa.",
+        "Segure a garrafa e diga a intenção.",
+        "Enterre no jardim, perto da entrada, ou guarde num lugar discreto perto da porta."
+      ],
+      "intencao": "Esta casa e quem vive nela estão guardados.",
+      "descarte": "Depois de um ano, descarte o conteúdo na terra, lave a garrafa e monte outra.",
+      "explicacao": "Sal, alecrim, arruda, cravo e pimenta reúnem os elementos de proteção mais usados na tradição popular.",
+      "cuidados": [
+        "Sal Grosso: Sal em excesso faz mal a pets: deixe fora do alcance deles. Descarte sempre no ralo com água corrente.",
+        "Arruda: Pode irritar a pele em contato com o sol. Contraindicada para gestantes. Tóxica para animais se ingerida.",
+        "Pimenta Seca: Não leve as mãos aos olhos depois de manusear. Mantenha longe de crianças."
+      ],
+      "banho": {
+        "id": 4,
+        "titulo": "Raiz e Escudo"
+      }
+    },
+    {
+      "id": 34,
+      "titulo": "Saquinho da Prosperidade na Carteira",
+      "secao": "Proteção portátil",
+      "finalidade": "Prosperidade",
+      "finalidades_extras": [],
+      "quando": "No primeiro dia do mês ou na lua crescente",
+      "duracao": "5 minutos",
+      "frequencia": "Troque o louro todo mês.",
+      "direcao": "Na carteira",
+      "materiais": [
+        {
+          "elemento": "Saquinho de Pano",
+          "quantidade": "1 bem pequeno (ou um papel dobrado)"
+        },
+        {
+          "elemento": "Louro",
+          "quantidade": "1 folha"
+        },
+        {
+          "elemento": "Canela em Pau",
+          "quantidade": "1 pedacinho"
+        },
+        {
+          "elemento": "Moedas",
+          "quantidade": "1"
+        }
+      ],
+      "passos": [
+        "Coloque a folha de louro, a canela e a moeda no saquinho.",
+        "Diga a intenção e guarde na carteira."
+      ],
+      "intencao": "O dinheiro que sai desta carteira volta multiplicado.",
+      "descarte": "A cada mês, a folha de louro antiga vai para a terra.",
+      "explicacao": "O louro é associado à conquista, a canela ao movimento e a moeda ao dinheiro.",
+      "cuidados": [],
+      "banho": {
+        "id": 31,
+        "titulo": "Ímã de Oportunidades"
+      }
+    },
+    {
+      "id": 35,
+      "titulo": "Pão da Fartura",
+      "secao": "Frutas, pães e grãos",
+      "finalidade": "Prosperidade",
+      "finalidades_extras": [],
+      "quando": "Em 13 de junho (dia de Santo Antônio) ou no primeiro dia do mês",
+      "duracao": "5 minutos",
+      "frequencia": "Troque a cada mês ou ao primeiro sinal de umidade.",
+      "direcao": "Na despensa ou junto aos mantimentos",
+      "materiais": [
+        {
+          "elemento": "Pão",
+          "quantidade": "1 pequeno e seco (torrado ou pão bento)"
+        },
+        {
+          "elemento": "Saquinho de Pano",
+          "quantidade": "1 pano branco limpo"
+        }
+      ],
+      "passos": [
+        "Embrulhe o pão no pano branco.",
+        "Guarde junto aos mantimentos, na despensa ou no armário da cozinha.",
+        "Diga a intenção ao guardar."
+      ],
+      "intencao": "Que nesta casa nunca falte comida e sempre haja o que partilhar.",
+      "descarte": "Esfarele o pão antigo na terra de um jardim ou descarte no lixo orgânico. Não dê aos pássaros.",
+      "explicacao": "A tradição de Santo Antônio associa o pão guardado à fartura da casa.",
+      "cuidados": [
+        "Pão: Pão mofa: troque ao primeiro sinal de umidade. Não dê pão a pássaros, porque faz mal a eles."
+      ],
+      "banho": {
+        "id": 36,
+        "titulo": "Bases de Estabilidade"
+      }
+    },
+    {
+      "id": 36,
+      "titulo": "Fruteira da Prosperidade",
+      "secao": "Frutas, pães e grãos",
+      "finalidade": "Prosperidade",
+      "finalidades_extras": [
+        "Amor e Magnetismo"
+      ],
+      "quando": "No começo da semana",
+      "duracao": "10 minutos",
+      "frequencia": "Reponha as frutas sempre que forem consumidas.",
+      "direcao": "Na mesa ou na cozinha",
+      "materiais": [
+        {
+          "elemento": "Frutas",
+          "quantidade": "pelo menos 3 tipos, com uma amarela ou dourada"
+        },
+        {
+          "elemento": "Louro",
+          "quantidade": "3 folhas"
+        }
+      ],
+      "passos": [
+        "Lave bem a fruteira.",
+        "Coloque as folhas de louro no fundo.",
+        "Arrume as frutas com calma, pensando na sua intenção.",
+        "Consuma e reponha as frutas sempre. Nunca deixe estragar."
+      ],
+      "intencao": "Esta mesa é farta, e o que é farto se partilha.",
+      "descarte": "Troque o louro a cada mês. Frutas que passaram do ponto vão para o lixo orgânico ou para a compostagem.",
+      "explicacao": "A fruteira sempre cheia simboliza a abundância da casa.",
+      "cuidados": [
+        "Frutas: Nunca deixe frutas estragarem: consuma ou partilhe antes. Fruta estragada contradiz a intenção e atrai insetos."
+      ],
+      "banho": {
+        "id": 35,
+        "titulo": "Brilho e Reconhecimento"
+      }
+    },
+    {
+      "id": 37,
+      "titulo": "Pote da Fartura",
+      "secao": "Frutas, pães e grãos",
+      "finalidade": "Prosperidade",
+      "finalidades_extras": [],
+      "quando": "No ano novo ou no primeiro dia de um mês",
+      "duracao": "15 minutos para montar",
+      "frequencia": "Renove a cada ano.",
+      "direcao": "Na cozinha",
+      "materiais": [
+        {
+          "elemento": "Pote de Vidro",
+          "quantidade": "1 grande, com tampa"
+        },
+        {
+          "elemento": "Grãos",
+          "quantidade": "meia xícara de cada: arroz, feijão, milho e lentilha"
+        },
+        {
+          "elemento": "Moedas",
+          "quantidade": "3"
+        },
+        {
+          "elemento": "Louro",
+          "quantidade": "3 folhas"
+        }
+      ],
+      "passos": [
+        "Coloque os grãos em camadas no pote.",
+        "Coloque as moedas e as folhas de louro por cima.",
+        "Feche bem, diga a intenção e deixe na cozinha, à vista."
+      ],
+      "intencao": "Que a nossa mesa seja sempre farta.",
+      "descarte": "Depois de um ano, descarte os grãos no lixo orgânico, lave as moedas e, se puder, doe alimentos para quem precisa.",
+      "explicacao": "Os grãos simbolizam a mesa farta, e as moedas, o dinheiro que sustenta a casa.",
+      "cuidados": [
+        "Grãos: Use pote bem fechado para evitar carunchos."
+      ],
+      "banho": {
+        "id": 33,
+        "titulo": "Fartura Conquistada"
+      }
+    },
+    {
+      "id": 38,
+      "titulo": "Lentilha do Ano Novo",
+      "secao": "Frutas, pães e grãos",
+      "finalidade": "Prosperidade",
+      "finalidades_extras": [],
+      "quando": "Na virada do ano ou no seu aniversário",
+      "duracao": "10 minutos",
+      "frequencia": "1 vez por ano.",
+      "direcao": "Com a família, à mesa",
+      "materiais": [
+        {
+          "elemento": "Lentilha",
+          "quantidade": "1 punhado"
+        },
+        {
+          "elemento": "Louro",
+          "quantidade": "1 folha"
+        },
+        {
+          "elemento": "Moedas",
+          "quantidade": "1"
+        },
+        {
+          "elemento": "Saquinho de Pano",
+          "quantidade": "1 pequeno"
+        }
+      ],
+      "passos": [
+        "Segure um punhado de lentilha nas mãos e diga a sua intenção para o novo ano.",
+        "Separe alguns grãos e coloque no saquinho com a folha de louro e a moeda. Guarde na carteira.",
+        "Cozinhe o restante da lentilha e partilhe com a família."
+      ],
+      "intencao": "Que o novo ano traga fartura, saúde e alegria para esta família.",
+      "descarte": "No ano seguinte, os grãos e o louro antigos vão para a terra.",
+      "explicacao": "Pela forma de moedinha, a lentilha é tradicionalmente associada à prosperidade.",
+      "cuidados": [],
+      "banho": {
+        "id": 31,
+        "titulo": "Ímã de Oportunidades"
+      }
+    }
+  ]
+}

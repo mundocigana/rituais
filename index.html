@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rituais Caseiros — Guia Digital | Mundo Cigana Tarot</title>
+    <meta name="description" content="38 rituais caseiros com velas, defumação, sal, anil, alfazema, mel e frutas, organizados por tipo e finalidade. Um guia da Mundo Cigana Tarot.">
+    <meta name="theme-color" content="#6e4141">
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- Pré-visualização em WhatsApp e redes sociais. Se o site mudar de endereço, atualize as duas URLs abaixo. -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Mundo Cigana Tarot">
+    <meta property="og:title" content="Rituais Caseiros — Guia Prático de Uso Pessoal">
+    <meta property="og:description" content="38 rituais caseiros: defumações, limpezas da casa, velas, lua, mel, frutas e proteção.">
+    <meta property="og:url" content="https://mundocigana.github.io/rituais/">
+    <meta property="og:image" content="https://mundocigana.github.io/rituais/img/og.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #f7f4ee;
+            --bg-sidebar: #efede6;
+            --bg-surface: #ffffff;
+            --bg-card: #f2eee3;
+            --text-main: #2c2926;
+            --text-muted: #655f57;
+            --accent-rose: #8a5252;
+            --accent-soft: #b88585;
+            --accent-rose-dark: #6e4141;
+            --border-subtle: #e3decb;
+            --warn-bg: #fbf3e4;
+            --warn-border: #d9b77a;
+            --warn-text: #6b4e16;
+            --focus: #6e4141;
+            --transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html { -webkit-text-size-adjust: 100%; }
+
+        body {
+            background-color: var(--bg-primary);
+            color: var(--text-main);
+            font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+            font-weight: 400;
+            line-height: 1.7;
+            font-size: 16px;
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        h1, h2, h3, h4 { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 400; color: var(--text-main); line-height: 1.25; }
+        h3 { font-size: 1.5rem; margin: 28px 0 10px; color: var(--accent-rose-dark); }
+        p { margin-bottom: 16px; }
+        a { color: var(--accent-rose); }
+        ul.plain { list-style: none; }
+
+        :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
+
+        .skip-link {
+            position: absolute; left: -9999px; top: 8px; z-index: 300;
+            background: var(--accent-rose-dark); color: #fff; padding: 8px 14px; border-radius: 4px; text-decoration: none;
+        }
+        .skip-link:focus { left: 8px; }
+
+        /* ---------- Menu lateral ---------- */
+        aside.sidebar {
+            width: 320px; flex-shrink: 0;
+            background-color: var(--bg-sidebar);
+            border-right: 1px solid var(--border-subtle);
+            display: flex; flex-direction: column;
+            height: 100%; z-index: 100;
+            transition: var(--transition);
+        }
+        .sidebar-header { padding: 26px 24px 18px; border-bottom: 1px solid var(--border-subtle); text-align: center; }
+        .sidebar-header a { text-decoration: none; }
+        .sidebar-header h2 { font-size: 1.6rem; color: var(--accent-rose-dark); }
+        .sidebar-header p { font-size: 0.95rem; color: var(--text-muted); font-style: italic; font-family: 'Cormorant Garamond', serif; margin: 0; }
+
+        .search-box { padding: 16px 20px 4px; }
+        .search-box label { display: block; font-size: 0.75rem; color: var(--text-muted); margin-bottom: 4px; }
+        .search-box input {
+            width: 100%; padding: 9px 12px; font: inherit; font-size: 0.9rem;
+            border: 1px solid var(--border-subtle); border-radius: 6px; background: var(--bg-surface); color: var(--text-main);
+        }
+        .search-box input:focus { border-color: var(--accent-rose); outline: none; box-shadow: 0 0 0 3px rgba(138,82,82,0.15); }
+
+        .nav-tree { flex: 1; overflow-y: auto; padding: 12px 16px 24px; }
+        .nav-section { margin-bottom: 12px; }
+        .nav-section-title {
+            font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.14em;
+            color: var(--accent-rose); padding: 8px 12px 4px; font-weight: 600;
+        }
+        .nav-items { list-style: none; padding-left: 8px; }
+        .nav-items li a {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 6px 12px; color: var(--text-main); text-decoration: none;
+            font-size: 0.92rem; border-radius: 4px; transition: var(--transition);
+        }
+        .nav-items li a .count { font-size: 0.75rem; color: var(--text-muted); }
+        .nav-items li a:hover, .nav-items li a[aria-current="page"] {
+            background-color: var(--border-subtle); color: var(--accent-rose-dark); font-weight: 500;
+        }
+
+        /* ---------- Área principal ---------- */
+        main.content-area { flex: 1; height: 100%; overflow-y: auto; padding: 50px 70px 80px; scroll-behavior: smooth; }
+        .content-container { max-width: 800px; margin: 0 auto; }
+        .content-container:focus { outline: none; }
+
+        h1.page-title {
+            font-size: 2.6rem; color: var(--accent-rose-dark);
+            margin-bottom: 20px; border-bottom: 1px solid var(--border-subtle); padding-bottom: 14px;
+        }
+        .lead { font-size: 1.05rem; color: var(--text-muted); }
+        .breadcrumb { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 10px; }
+        .breadcrumb a { color: var(--accent-rose); text-decoration: none; }
+        .breadcrumb a:hover { text-decoration: underline; }
+
+        .cover { width: 100%; height: 260px; margin: 24px 0; border-radius: 6px; overflow: hidden; border: 1px solid var(--border-subtle); background: var(--bg-card); }
+        .cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+        .module-box, .note-box {
+            background-color: var(--bg-surface); border: 1px solid var(--border-subtle);
+            padding: 24px; border-radius: 6px; margin: 20px 0;
+        }
+        .module-box h3 { margin-top: 0; }
+        .module-box p:last-child, .note-box p:last-child { margin-bottom: 0; }
+        .note-box { background: var(--bg-card); border-left: 3px solid var(--accent-soft); font-size: 0.95rem; }
+
+        .rules { list-style: none; margin-top: 8px; }
+        .rules li { padding: 10px 0; border-top: 1px solid var(--border-subtle); }
+        .rules li:first-child { border-top: none; }
+
+        /* ---------- Selos (nível, corpo, direcionamento) ---------- */
+        .badges { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 14px; }
+        .badge {
+            font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600;
+            padding: 3px 9px; border-radius: 999px; border: 1px solid var(--border-subtle);
+            background: var(--bg-card); color: var(--accent-rose-dark);
+        }
+        .badge.nivel-Descarrego { background: #f3e6e3; border-color: #dcc0ba; }
+        .badge.nivel-Ativação { background: #f6eedd; border-color: #e1d0a8; color: #6b4e16; }
+        .badge.nivel-Harmonização { background: #e9efe7; border-color: #c5d3c0; color: #3d5a36; }
+        .badge.warn { background: var(--warn-bg); border-color: var(--warn-border); color: var(--warn-text); }
+
+        /* ---------- Cartões de banho (listas) ---------- */
+        .card-list { display: grid; gap: 14px; margin-top: 20px; }
+        .bath-card {
+            display: block; text-decoration: none; color: inherit;
+            background: var(--bg-surface); border: 1px solid var(--border-subtle);
+            padding: 20px 24px; border-radius: 6px; transition: var(--transition);
+        }
+        .bath-card:hover { border-color: var(--accent-soft); box-shadow: 0 4px 14px rgba(110,65,65,0.06); }
+        .bath-card h2 { font-size: 1.45rem; color: var(--accent-rose-dark); }
+        .bath-card .fin { margin: 0 0 8px; }
+        .bath-card .herbs { font-size: 0.85rem; color: var(--text-muted); margin: 0; }
+        .bath-card .cross { font-size: 0.8rem; color: var(--text-muted); margin: 6px 0 0; font-style: italic; }
+
+        /* ---------- Página do banho ---------- */
+        .recipe-card {
+            background-color: var(--bg-surface); border: 1px solid var(--border-subtle);
+            padding: 32px; margin-bottom: 24px; border-radius: 6px;
+        }
+        .recipe-card h4 { font-size: 1.05rem; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 600; margin: 20px 0 8px; color: var(--accent-rose-dark); }
+        .recipe-card h4:first-child { margin-top: 0; }
+        .ingredients { list-style: none; border-top: 1px solid var(--border-subtle); }
+        .ingredients li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; padding: 9px 0; border-bottom: 1px solid var(--border-subtle); }
+        .ingredients .qty { color: var(--text-muted); font-size: 0.92rem; }
+
+        .intention-box {
+            background-color: var(--bg-card); border-left: 2px solid var(--accent-soft);
+            padding: 16px 20px; margin: 16px 0;
+            font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1.25rem; color: var(--accent-rose-dark);
+        }
+        .intention-box small { display: block; font-family: 'Plus Jakarta Sans', sans-serif; font-style: normal; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent-rose); margin-bottom: 4px; }
+
+        .alert {
+            background: var(--warn-bg); border: 1px solid var(--warn-border); border-radius: 6px;
+            padding: 14px 18px; margin: 18px 0; font-size: 0.92rem; color: var(--warn-text);
+        }
+        .alert strong { display: block; margin-bottom: 4px; }
+        .alert ul { margin: 0 0 0 18px; }
+
+        .herb-link, .smart-link {
+            color: var(--accent-rose); text-decoration: none; font-weight: 500;
+            border-bottom: 1px dashed var(--accent-soft); transition: var(--transition);
+        }
+        .herb-link:hover, .smart-link:hover { color: var(--accent-rose-dark); border-bottom: 1px solid var(--accent-rose-dark); }
+
+        .actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 18px; }
+        .btn {
+            font: inherit; font-size: 0.85rem; cursor: pointer;
+            background: var(--bg-surface); color: var(--accent-rose-dark);
+            border: 1px solid var(--border-subtle); border-radius: 6px; padding: 7px 14px;
+            text-decoration: none; display: inline-flex; align-items: center; gap: 6px; transition: var(--transition);
+        }
+        .btn:hover { border-color: var(--accent-soft); background: #fdfdfb; }
+        .btn.primary { background: var(--accent-rose-dark); color: #fff; border-color: var(--accent-rose-dark); }
+        .btn.primary:hover { background: #5c3535; }
+
+        .pager { display: flex; justify-content: space-between; gap: 12px; margin-top: 24px; }
+        .pager a { max-width: 48%; }
+
+        /* ---------- Filtros ---------- */
+        .filters { margin: 18px 0 6px; }
+        .filters fieldset { border: none; margin-bottom: 10px; }
+        .filters legend { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--text-muted); margin-bottom: 6px; font-weight: 600; }
+        .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+        .chip {
+            font: inherit; font-size: 0.85rem; cursor: pointer;
+            background: var(--bg-card); border: 1px solid var(--border-subtle); color: var(--accent-rose-dark);
+            padding: 5px 12px; border-radius: 999px; transition: var(--transition);
+        }
+        .chip:hover { border-color: var(--accent-soft); }
+        .chip[aria-pressed="true"] { background: var(--accent-rose-dark); border-color: var(--accent-rose-dark); color: #fff; }
+        .result-count { font-size: 0.9rem; color: var(--text-muted); margin-top: 14px; }
+
+        /* ---------- Fichas ---------- */
+        details.ficha { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 6px; margin-bottom: 8px; transition: var(--transition); }
+        details.ficha[open] { border-color: var(--accent-soft); }
+        details.ficha summary {
+            list-style: none; cursor: pointer; padding: 14px 22px;
+            display: flex; justify-content: space-between; align-items: center; gap: 12px;
+        }
+        details.ficha summary::-webkit-details-marker { display: none; }
+        details.ficha summary h2 { font-size: 1.4rem; }
+        details.ficha summary .sub { font-size: 0.8rem; color: var(--text-muted); }
+        details.ficha summary .sign { color: var(--accent-rose); font-size: 1.3rem; line-height: 1; }
+        details.ficha summary .sign::before { content: "+"; }
+        details.ficha[open] summary .sign::before { content: "—"; }
+        details.ficha .ficha-body { padding: 4px 22px 22px; border-top: 1px solid var(--border-subtle); }
+        details.ficha .ficha-body > :first-child { margin-top: 16px; }
+        .recipe-meta { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-rose); margin-bottom: 14px; font-weight: 600; }
+        .related { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--border-subtle); }
+        .related li { margin-bottom: 6px; }
+        .related .cat { font-size: 0.8rem; color: var(--text-muted); }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+        details.ficha[open] .ficha-body { animation: fadeIn 0.25s ease-out; }
+
+        /* ---------- Tenho em casa ---------- */
+        .result-group > h2 { font-size: 1.6rem; color: var(--accent-rose-dark); margin: 28px 0 4px; }
+        .missing { font-size: 0.85rem; color: var(--warn-text); margin: 6px 0 0; }
+
+        /* ---------- Listas de orientação ---------- */
+        .guide-list { list-style: none; counter-reset: g; }
+        .guide-list li { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 6px; padding: 18px 22px; margin-bottom: 12px; }
+        .guide-list li h2 { font-size: 1.35rem; color: var(--accent-rose-dark); margin-bottom: 4px; }
+        .guide-list li p { margin: 0; }
+
+        .cta { background: var(--accent-rose-dark); color: #fff; border-radius: 6px; padding: 24px; margin: 32px 0 8px; }
+        .cta p { margin-bottom: 12px; font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; }
+        .cta-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+        .cta .btn { background: #fff; color: var(--accent-rose-dark); border-color: #fff; }
+        .cta .btn.ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,0.6); }
+        .cta .btn.ghost:hover { background: rgba(255,255,255,0.1); }
+        .suporte { font-size: 0.9rem; color: var(--text-muted); margin-top: 12px; }
+        .facts { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: 6px 0 18px; }
+        .fact { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 6px; padding: 12px 14px; }
+        .fact .k { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--text-muted); font-weight: 600; margin-bottom: 2px; }
+        .fact .v { font-size: 0.95rem; font-weight: 500; color: var(--accent-rose-dark); line-height: 1.35; }
+        .fact.nivel-Descarrego { border-top: 3px solid #c89a92; }
+        .fact.nivel-Ativação { border-top: 3px solid #d7b977; }
+        .fact.nivel-Harmonização { border-top: 3px solid #9fb898; }
+        .finalidade-lead { font-family: 'Cormorant Garamond', serif; font-size: 1.45rem; line-height: 1.35; color: var(--text-main); margin-bottom: 10px; }
+        .block { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 6px; padding: 22px 26px; margin-bottom: 14px; }
+        .block > h2 { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.14em; font-weight: 600; color: var(--accent-rose); margin-bottom: 12px; display: flex; align-items: center; gap: 10px; }
+        .block > h2 .n { display: inline-flex; width: 22px; height: 22px; border-radius: 50%; background: var(--accent-rose-dark); color: #fff; align-items: center; justify-content: center; font-size: 0.72rem; letter-spacing: 0; }
+        .block > p:last-child { margin-bottom: 0; }
+        .block.intencao { background: var(--bg-card); border-left: 3px solid var(--accent-soft); }
+        .block.intencao blockquote { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1.4rem; line-height: 1.4; color: var(--accent-rose-dark); }
+        .block.intencao .dica { font-size: 0.85rem; color: var(--text-muted); margin: 10px 0 0; }
+        .steps { counter-reset: s; list-style: none; }
+        .steps li { counter-increment: s; position: relative; padding: 0 0 12px 34px; }
+        .steps li:last-child { padding-bottom: 0; }
+        .steps li::before { content: counter(s); position: absolute; left: 0; top: 2px; width: 22px; height: 22px; border-radius: 50%; border: 1px solid var(--accent-soft); color: var(--accent-rose-dark); font-size: 0.75rem; font-weight: 600; display: flex; align-items: center; justify-content: center; }
+        .tag-row { display: flex; flex-wrap: wrap; gap: 6px; }
+        .tag-row a { text-decoration: none; font-size: 0.82rem; padding: 3px 10px; border-radius: 999px; background: var(--bg-card); border: 1px solid var(--border-subtle); color: var(--accent-rose-dark); }
+        .tag-row a:hover { border-color: var(--accent-soft); }
+        .tag-row a .c { color: var(--text-muted); margin-left: 4px; }
+        .ficha-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 16px 0 4px; }
+        .ficha-grid h3 { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--text-muted); font-weight: 600; margin: 0 0 8px; }
+        .journey { list-style: none; counter-reset: j; }
+        .journey > li { counter-increment: j; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 6px; padding: 20px 24px 20px 70px; margin-bottom: 12px; position: relative; }
+        .journey > li::before { content: counter(j); position: absolute; left: 22px; top: 20px; width: 32px; height: 32px; border-radius: 50%; background: var(--accent-rose-dark); color: #fff; font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; display: flex; align-items: center; justify-content: center; }
+        .journey h2 { font-size: 1.45rem; color: var(--accent-rose-dark); margin-bottom: 4px; }
+        .journey ul { margin: 8px 0 0 18px; }
+        .journey ul li { margin-bottom: 4px; }
+        .journey p { margin: 0; }
+        .diario { width: 100%; border-collapse: collapse; margin-top: 12px; background: var(--bg-surface); }
+        .diario th { text-align: left; font-weight: 500; font-size: 0.9rem; color: var(--accent-rose-dark); padding: 10px 12px; border: 1px solid var(--border-subtle); width: 42%; vertical-align: top; }
+        .diario td { border: 1px solid var(--border-subtle); height: 56px; }
+        @media (max-width: 768px) {
+            .facts { grid-template-columns: 1fr 1fr; }
+            .pager { flex-direction: column; }
+            .pager a { max-width: 100%; width: 100%; justify-content: center; }
+            .block { padding: 18px 18px; }
+            .ficha-grid { grid-template-columns: 1fr; }
+            .journey > li { padding: 18px 18px 18px 60px; }
+            .journey > li::before { left: 16px; }
+            .login-card { padding: 26px 20px; }
+            .login-card h1 { font-size: 1.9rem; }
+        }
+        @media print {
+            .facts { grid-template-columns: repeat(4, 1fr); }
+            .block, .fact, .journey > li { border-color: #ccc; break-inside: avoid; }
+            .suporte { display: none; }
+            .diario td { height: 80px; }
+        }
+        /* Login */
+        .login-screen { position: fixed; inset: 0; z-index: 500; background: var(--bg-primary); display: flex; align-items: flex-start; justify-content: center; padding: 20px; overflow-y: auto; }
+        .login-screen[hidden] { display: none; }
+        .login-card { margin: auto; width: 100%; max-width: 400px; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 10px; padding: 34px 30px; box-shadow: 0 10px 40px rgba(110,65,65,0.08); }
+        .login-card h1 { font-size: 2.2rem; color: var(--accent-rose-dark); text-align: center; }
+        .login-card .marca { text-align: center; font-family: 'Cormorant Garamond', serif; font-style: italic; color: var(--text-muted); margin-bottom: 22px; }
+        .login-card label { display: block; font-size: 0.85rem; font-weight: 500; margin: 14px 0 4px; }
+        .login-card input { width: 100%; padding: 11px 12px; font: inherit; border: 1px solid var(--border-subtle); border-radius: 6px; background: #fff; color: var(--text-main); }
+        .login-card input:focus { outline: none; border-color: var(--accent-rose); box-shadow: 0 0 0 3px rgba(138,82,82,0.15); }
+        .login-card button[type=submit] { width: 100%; justify-content: center; margin-top: 20px; padding: 11px; font-size: 0.95rem; }
+        .login-card .erro { color: #9b2c2c; font-size: 0.88rem; margin: 12px 0 0; min-height: 1em; }
+        .login-card .links { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--border-subtle); font-size: 0.88rem; display: grid; gap: 8px; text-align: center; }
+        .user-bar { padding: 10px 24px; font-size: 0.8rem; color: var(--text-muted); display: flex; justify-content: space-between; border-top: 1px solid var(--border-subtle); }
+        .user-bar button { background: none; border: none; color: var(--accent-rose); font: inherit; cursor: pointer; text-decoration: underline; padding: 0; }
+        /* Por onde começar */
+        .start-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 14px 0 8px; }
+        .start-card { display: block; text-decoration: none; color: inherit; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 6px; padding: 18px; transition: var(--transition); }
+        .start-card:hover { border-color: var(--accent-soft); box-shadow: 0 4px 14px rgba(110,65,65,0.06); }
+        .start-card strong { display: block; font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 1.3rem; color: var(--accent-rose-dark); line-height: 1.2; margin-bottom: 6px; }
+        .start-card span { font-size: 0.88rem; color: var(--text-muted); }
+        .tag-row a.principal { background: var(--accent-rose-dark); border-color: var(--accent-rose-dark); color: #fff; }
+        .tag-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--text-muted); font-weight: 600; align-self: center; margin-right: 2px; }
+        .related-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 10px; }
+        .related-grid a { display: block; text-decoration: none; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 6px; padding: 14px; color: inherit; transition: var(--transition); }
+        .related-grid a:hover { border-color: var(--accent-soft); }
+        .related-grid strong { display: block; font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; font-weight: 600; color: var(--accent-rose-dark); line-height: 1.2; }
+        .related-grid span { font-size: 0.8rem; color: var(--text-muted); }
+        .glossario dt { font-family: 'Cormorant Garamond', serif; font-size: 1.35rem; color: var(--accent-rose-dark); margin-top: 16px; }
+        .glossario dd { margin: 2px 0 0; padding-bottom: 14px; border-bottom: 1px solid var(--border-subtle); }
+        @media (max-width: 768px) {
+            .start-grid, .related-grid { grid-template-columns: 1fr; }
+            .diario, .diario tbody, .diario tr, .diario th, .diario td { display: block; width: 100%; }
+            .diario tr { margin-bottom: 10px; }
+            .diario th { border-bottom: none; }
+            .diario td { height: 70px; }
+        }
+        .diario-cabecalho { display: none; }
+        @media print {
+            body.print-diario .content-container > *:not(#diario) { display: none !important; }
+            body.print-diario #diario { border: none; padding: 0; margin: 0; }
+            body.print-diario #diario .actions, body.print-diario #diario > p { display: none; }
+            body.print-diario #diario > p.diario-cabecalho { display: block; margin-bottom: 12px; }
+            body.print-diario .diario td { height: 110px; }
+            body.print-diario .diario { display: table; }
+            body.print-diario .diario tbody { display: table-row-group; }
+            body.print-diario .diario tr { display: table-row; }
+            body.print-diario .diario th, body.print-diario .diario td { display: table-cell; }
+            body.print-diario .diario th { width: 32%; border-bottom: 1px solid #ccc; }
+        }
+        .aviso { font-size: 0.85rem; color: var(--text-muted); font-style: italic; }
+        .sidebar-contact { padding: 14px 24px 18px; border-top: 1px solid var(--border-subtle); display: flex; gap: 8px; flex-wrap: wrap; }
+        .sidebar-contact a { flex: 1; text-align: center; justify-content: center; font-size: 0.8rem; padding: 7px 8px; white-space: nowrap; }
+        .sobre-wrap { display: flex; gap: 24px; align-items: flex-start; flex-wrap: wrap; }
+        .sobre-wrap { gap: 32px; }
+        .sobre-wrap img { width: 240px; max-width: 100%; height: auto; aspect-ratio: 3 / 4; border-radius: 8px; object-fit: cover; box-shadow: 0 6px 24px rgba(110,65,65,0.12); }
+        .sobre-wrap .bio-box { flex: 1; min-width: 240px; }
+        .sobre-wrap .bio { white-space: pre-line; font-size: 1.05rem; }
+        .sobre-wrap .nome { font-family: 'Cormorant Garamond', serif; font-size: 2rem; color: var(--accent-rose-dark); line-height: 1.2; margin-bottom: 4px; }
+        .sobre-wrap .papel { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.14em; color: var(--accent-rose); font-weight: 600; margin-bottom: 16px; }
+        @media (max-width: 768px) { .sobre-wrap img { width: 100%; max-width: 320px; } }
+
+        .footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--border-subtle); font-size: 0.8rem; color: var(--text-muted); }
+
+        .toast {
+            position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%) translateY(20px);
+            background: var(--text-main); color: #fff; padding: 10px 18px; border-radius: 6px; font-size: 0.9rem;
+            opacity: 0; pointer-events: none; transition: var(--transition); z-index: 400;
+        }
+        .toast.show { opacity: 1; transform: translateX(-50%); }
+
+        .loading { color: var(--text-muted); padding: 40px 0; }
+
+        /* ---------- Celular ---------- */
+        .mobile-menu-btn {
+            display: none; position: fixed; top: 14px; left: 14px; z-index: 200;
+            background: var(--accent-rose-dark); color: #fff; border: none;
+            padding: 9px 14px; border-radius: 6px; font: inherit; font-size: 0.9rem; cursor: pointer;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+        }
+        .backdrop { display: none; }
+
+        @media (max-width: 768px) {
+            body { flex-direction: column; }
+            aside.sidebar { position: fixed; top: 0; left: -100%; width: 290px; max-width: 85vw; height: 100%; box-shadow: 4px 0 24px rgba(0,0,0,0.12); }
+            aside.sidebar.open { left: 0; }
+            .backdrop { display: block; position: fixed; inset: 0; background: rgba(44,41,38,0.35); z-index: 90; opacity: 0; pointer-events: none; transition: opacity 0.25s; }
+            .backdrop.show { opacity: 1; pointer-events: auto; }
+            main.content-area { padding: 76px 18px 48px; }
+            .mobile-menu-btn { display: block; }
+            .sidebar-header { padding-top: 68px; }
+            h1.page-title { font-size: 2.1rem; }
+            .recipe-card { padding: 22px 18px; }
+            .cover { height: 190px; }
+        }
+
+        @media (max-width: 420px) {
+            .facts .fact:nth-child(n+3) { grid-column: 1 / -1; }
+            .facts .fact .v br { display: none; }
+            .facts .fact .v small { display: block; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+        }
+
+        /* ---------- Impressão ---------- */
+        @media print {
+            body { display: block; height: auto; overflow: visible; background: #fff; font-size: 11pt; }
+            aside.sidebar, .mobile-menu-btn, .backdrop, .actions, .pager, .filters, .search-box, .skip-link, .toast, .cta, .no-print { display: none !important; }
+            main.content-area { height: auto; overflow: visible; padding: 0; }
+            .recipe-card, .module-box, .note-box, details.ficha, .bath-card { border-color: #ccc; box-shadow: none; break-inside: avoid; }
+            .alert { break-inside: avoid; }
+            a { color: inherit; border: none !important; text-decoration: none; }
+            .footer { margin-top: 24px; }
+        }
+            /* Rituais */
+        .color-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 16px 0; }
+        .color-card { display: flex; gap: 14px; align-items: flex-start; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 6px; padding: 16px; }
+        .color-card strong { font-family: 'Cormorant Garamond', serif; font-size: 1.35rem; color: var(--accent-rose-dark); font-weight: 600; }
+        .color-card p { margin: 2px 0 0; font-size: 0.92rem; }
+        .swatch { flex: 0 0 28px; width: 28px; height: 44px; border-radius: 14px 14px 6px 6px; border: 1px solid rgba(0,0,0,0.12); margin-top: 4px; }
+        .lua { flex: 0 0 34px; width: 34px; height: 34px; border-radius: 50%; border: 1px solid var(--accent-soft); margin-top: 4px; background: var(--bg-card); }
+        .lua-lua-nova { background: #3a3532; }
+        .lua-lua-crescente { background: linear-gradient(90deg, #3a3532 50%, #f4eedc 50%); }
+        .lua-lua-cheia { background: #f4eedc; }
+        .lua-lua-minguante { background: linear-gradient(90deg, #f4eedc 50%, #3a3532 50%); }
+        .facts.facts-3 { grid-template-columns: repeat(3, 1fr); }
+        .facts.facts-3 .fact .v { font-size: 0.92rem; }
+        @media (max-width: 768px) { .facts.facts-3 { grid-template-columns: 1fr 1fr; } .facts.facts-3 .fact:first-child { grid-column: 1 / -1; } }
+        .note-box.combo { border-left-color: var(--accent-rose); }
+        @media (max-width: 768px) { .color-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <a class="skip-link" href="#contentContainer">Pular para o conteúdo</a>
+
+    <div class="login-screen" id="loginScreen" role="dialog" aria-modal="true" aria-labelledby="loginTitulo" hidden>
+        <form class="login-card" id="loginForm" novalidate>
+            <h1 id="loginTitulo">Rituais Caseiros</h1>
+            <p class="marca">Mundo Cigana Tarot</p>
+            <p style="font-size:0.92rem;margin-bottom:4px;">Entre com o e-mail e a senha que você recebeu ao adquirir o guia.</p>
+            <label for="loginEmail">E-mail</label>
+            <input type="email" id="loginEmail" autocomplete="username" required>
+            <label for="loginSenha">Senha</label>
+            <input type="password" id="loginSenha" autocomplete="current-password" required>
+            <button class="btn primary" type="submit" id="loginBtn">Entrar</button>
+            <p class="erro" id="loginErro" role="alert"></p>
+            <div class="links" id="loginLinks"></div>
+        </form>
+    </div>
+
+    <button class="mobile-menu-btn" id="menuBtn" aria-controls="sidebar" aria-expanded="false">☰ Sumário</button>
+    <div class="backdrop" id="backdrop"></div>
+
+    <aside class="sidebar" id="sidebar" aria-label="Sumário">
+        <div class="sidebar-header">
+            <a href="#/"><h2>Rituais Caseiros</h2></a>
+            <p>Mundo Cigana Tarot</p>
+        </div>
+        <form class="search-box" role="search" id="searchForm">
+            <label for="searchInput">Buscar ritual, elemento ou intenção</label>
+            <input type="search" id="searchInput" placeholder="Ex.: vela, anil, proteção" autocomplete="off">
+        </form>
+        <nav class="nav-tree" id="navTree" aria-label="Seções do guia"></nav>
+        <div class="sidebar-contact" id="sidebarContact" hidden></div>
+        <div class="user-bar" id="userBar" hidden></div>
+    </aside>
+
+    <main class="content-area" id="mainScroll">
+        <div class="content-container" id="contentContainer" tabindex="-1">
+            <p class="loading">Carregando o guia…</p>
+            <noscript><p>Este guia precisa de JavaScript ativado para funcionar.</p></noscript>
+        </div>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+
+    <script>
+    (() => {
+        'use strict';
+
+        const STORAGE_KEY = 'rituais-tenho-em-casa';
+        const SESSAO_KEY = 'mct-sessao-rituais';
+
+        let data = null;
+        let elByName = {};
+        const $ = sel => document.querySelector(sel);
+        const container = $('#contentContainer');
+        const main = $('#mainScroll');
+
+        // ---------------------------------------------------------------- utilidades
+        const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+        const slug = s => String(s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+        const norm = s => String(s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+        const secaoBySlug = s => data.secoes.find(c => slug(c) === s);
+        const finBySlug = s => data.finalidades.find(c => slug(c) === s);
+        const fins = r => [r.finalidade, ...(r.finalidades_extras || [])];
+        const daFinalidade = f => data.rituais.filter(r => fins(r).includes(f));
+        const daSecao = s => data.rituais.filter(r => r.secao === s);
+        const ritualUsa = (r, nome) => r.materiais.some(m => m.elemento === nome);
+        const usaFogo = r => r.materiais.some(m => ['Vela', 'Vela de 7 Dias'].includes(m.elemento)) || r.secao === 'Defumação';
+
+        function toast(msg) {
+            const t = $('#toast');
+            t.textContent = msg; t.classList.add('show');
+            clearTimeout(toast._t); toast._t = setTimeout(() => t.classList.remove('show'), 2400);
+        }
+        function storageGet() { try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'); } catch (e) { return []; } }
+        function storageSet(v) { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(v)); } catch (e) {} }
+
+        function ritualCard(r, contexto) {
+            const outras = fins(r).filter(c => c !== contexto);
+            return `
+                <a class="bath-card" href="#/ritual/${r.id}">
+                    <h2>${esc(r.titulo)}</h2>
+                    <div class="badges">
+                        <span class="badge">${esc(r.secao)}</span>
+                        <span class="badge">${esc(r.duracao)}</span>
+                        ${usaFogo(r) ? '<span class="badge warn">Usa fogo</span>' : ''}
+                    </div>
+                    <p class="herbs">${r.materiais.map(m => esc(m.elemento)).join(' · ')}</p>
+                    ${outras.length ? `<p class="cross">${contexto ? 'Também indicado para' : 'Indicado para'}: ${outras.map(esc).join(', ')}</p>` : ''}
+                </a>`;
+        }
+
+        function contatoLinks() {
+            const c = data.contato || {};
+            const wa = msg => c.whatsapp ? `https://wa.me/${String(c.whatsapp).replace(/\D/g, '')}` + (msg ? `?text=${encodeURIComponent(msg)}` : '') : '';
+            return {
+                whats: wa(c.mensagem_leitura),
+                suporte: wa((c.mensagem_suporte || '').replace('Banhos de Ervas', 'Rituais Caseiros')),
+                insta: c.instagram ? `https://www.instagram.com/${String(c.instagram).replace(/^@/, '')}/` : '',
+                handle: c.instagram ? '@' + String(c.instagram).replace(/^@/, '') : '',
+            };
+        }
+        function footer() {
+            const l = data ? contatoLinks() : {};
+            return `<p class="footer">${l.suporte ? `Dúvidas sobre o guia? <a href="${esc(l.suporte)}" target="_blank" rel="noopener">Fale pelo WhatsApp</a>. ` : ''}Leia os <a href="#/seguranca">cuidados de segurança</a> antes de qualquer ritual. © ${new Date().getFullYear()} Mundo Cigana Tarot. Todos os direitos reservados.${data && data.versao ? ' ' + esc(data.versao) + '.' : ''}</p>`;
+        }
+        function cta() {
+            const c = data.contato || {}, l = contatoLinks();
+            if (!l.whats && !l.insta) return '';
+            return `<div class="cta"><p>${esc(c.texto_cta)}</p><div class="cta-actions">
+                ${l.whats ? `<a class="btn" href="${esc(l.whats)}" target="_blank" rel="noopener">Agendar consulta</a>` : ''}
+                ${l.insta ? `<a class="btn ghost" href="${esc(l.insta)}" target="_blank" rel="noopener">Ver no Instagram</a>` : ''}
+            </div></div>`;
+        }
+        function suporte() {
+            const l = contatoLinks();
+            return l.suporte ? `<p class="suporte">Tem alguma dúvida sobre o guia? <a href="${esc(l.suporte)}" target="_blank" rel="noopener">Fale com a gente pelo WhatsApp</a>.</p>` : '';
+        }
+        const avisoTradicao = () => `<p class="aviso">${esc(data.aviso_tradicao)}</p>`;
+        const avisoCurto = () => `<p class="aviso">${esc(data.aviso_curto)} <a href="#/sobre">Entenda a perspectiva do guia</a>.</p>`;
+
+        // ---------------------------------------------------------------- menu
+        function buildSidebar() {
+            const item = (href, label, n) => `<li><a href="${href}">${esc(label)}${n != null ? `<span class="count">${n}</span>` : ''}</a></li>`;
+            $('#navTree').innerHTML = `
+                <div class="nav-section">
+                    <div class="nav-section-title">Apresentação</div>
+                    <ul class="nav-items">
+                        ${item('#/', 'Visão Geral')}
+                        ${item('#/como-fazer', 'Como fazer um ritual')}
+                        ${data.sobre ? item('#/sobre', 'Sobre') : ''}
+                    </ul>
+                </div>
+                <div class="nav-section">
+                    <div class="nav-section-title">Encontrar um ritual</div>
+                    <ul class="nav-items">
+                        ${item('#/rituais', 'Todos os rituais', data.rituais.length)}
+                        ${item('#/tenho-em-casa', 'Tenho em casa')}
+                    </ul>
+                </div>
+                <div class="nav-section">
+                    <div class="nav-section-title">Rituais por Tipo</div>
+                    <ul class="nav-items">${data.secoes.map(s => item('#/tipo/' + slug(s), s, daSecao(s).length)).join('')}</ul>
+                </div>
+                <div class="nav-section">
+                    <div class="nav-section-title">Rituais por Finalidade</div>
+                    <ul class="nav-items">${data.finalidades.map(f => item('#/finalidade/' + slug(f), f, daFinalidade(f).length)).join('')}</ul>
+                </div>
+                <div class="nav-section">
+                    <div class="nav-section-title">Consulta Técnica</div>
+                    <ul class="nav-items">
+                        ${item('#/como-defumar', 'Como defumar')}
+                        ${item('#/cores-das-velas', 'Cores das velas')}
+                        ${item('#/lua', 'Fases da lua e dias')}
+                        ${item('#/elementos', 'Ficha dos Elementos', data.elementos.length)}
+                        ${item('#/glossario', 'Glossário')}
+                        ${item('#/seguranca', 'Segurança e Uso')}
+                    </ul>
+                </div>`;
+        }
+        function setActive(href) {
+            document.querySelectorAll('.nav-items a').forEach(a => {
+                if (a.getAttribute('href') === href) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
+            });
+        }
+
+        const sidebar = $('#sidebar'), backdrop = $('#backdrop'), menuBtn = $('#menuBtn');
+        function openMenu() { sidebar.classList.add('open'); backdrop.classList.add('show'); menuBtn.setAttribute('aria-expanded', 'true'); menuBtn.textContent = '✕ Fechar'; sidebar.querySelector('a, input')?.focus(); }
+        function closeMenu() {
+            if (!sidebar.classList.contains('open')) return;
+            sidebar.classList.remove('open'); backdrop.classList.remove('show'); menuBtn.setAttribute('aria-expanded', 'false'); menuBtn.textContent = '☰ Sumário';
+        }
+        menuBtn.addEventListener('click', () => sidebar.classList.contains('open') ? closeMenu() : openMenu());
+        backdrop.addEventListener('click', closeMenu);
+        document.addEventListener('keydown', e => { if (e.key === 'Escape' && sidebar.classList.contains('open')) { closeMenu(); menuBtn.focus(); } });
+
+        const filtros = { finalidade: null, secao: null };
+        $('#searchForm').addEventListener('submit', e => {
+            e.preventDefault();
+            const q = $('#searchInput').value.trim();
+            filtros.finalidade = filtros.secao = null;
+            location.hash = '#/rituais' + (q ? '?q=' + encodeURIComponent(q) : '');
+        });
+        $('#searchInput').addEventListener('input', () => {
+            clearTimeout(buildSidebar._t);
+            buildSidebar._t = setTimeout(() => {
+                const q = $('#searchInput').value.trim();
+                filtros.finalidade = filtros.secao = null;
+                const target = '#/rituais' + (q ? '?q=' + encodeURIComponent(q) : '');
+                if (location.hash !== target) { history.replaceState(null, '', target); route(true); }
+            }, 250);
+        });
+
+        // ---------------------------------------------------------------- páginas
+        function render(html, title, activeHref) {
+            container.innerHTML = html + footer();
+            document.title = (title ? title + ' — ' : '') + 'Rituais Caseiros | Mundo Cigana Tarot';
+            setActive(activeHref);
+            closeMenu();
+        }
+
+        function pageInicio() {
+            const f = data.fundamentos;
+            render(`
+                <h1 class="page-title">${esc(data.titulo)}</h1>
+                <p class="lead"><em>${esc(data.subtitulo)}</em></p>
+                <div class="cover">
+                    <picture>
+                        <source srcset="img/capa.webp" type="image/webp">
+                        <img src="img/capa.jpg" alt="Ervas secas sobre tecido de linho" width="1000" height="720">
+                    </picture>
+                </div>
+                <h3>Como usar este guia</h3>
+                <p>${esc(data.como_usar)}</p>
+                <h3>Por onde começar?</h3>
+                <div class="start-grid">
+                    <a class="start-card" href="#/como-fazer"><strong>É minha primeira vez</strong><span>Veja como preparar o espaço, firmar a intenção e encerrar um ritual.</span></a>
+                    <a class="start-card" href="#/rituais"><strong>Sei o que quero trabalhar</strong><span>Filtre os ${data.rituais.length} rituais por tipo ou finalidade.</span></a>
+                    <a class="start-card" href="#/tenho-em-casa"><strong>Quero usar o que tenho em casa</strong><span>Marque os elementos que você tem e veja o que dá para fazer.</span></a>
+                </div>
+                <div class="module-box">
+                    <h3>Fundamentos: O Ritual Caseiro</h3>
+                    <p>${esc(f.mod1)}</p>
+                </div>
+                <div class="module-box">
+                    <h3>Fundamentos: A Direção da Limpeza</h3>
+                    <p>${esc(f.mod2)}</p>
+                    <ul class="rules">${f.regras.map(r => `<li><span class="badge">${esc(r.nivel)}</span><br>${esc(r.texto)}</li>`).join('')}</ul>
+                </div>
+                <div class="note-box"><p><strong>Antes de começar:</strong> leia a página de <a href="#/seguranca">Segurança e Uso</a>. Vários rituais usam fogo, carvão ou fumaça. ${esc(data.etica)}</p></div>
+                ${avisoTradicao()}
+                ${cta()}
+            `, '', '#/');
+        }
+
+        function pageLista(tipo, nome) {
+            const lista = tipo === 'tipo' ? daSecao(nome) : daFinalidade(nome);
+            const intro = tipo === 'tipo' && nome === 'Defumação' ? `<div class="note-box"><p>Antes da primeira defumação, leia <a href="#/como-defumar">Como defumar</a>: lá estão o passo a passo do carvão e os cuidados com a fumaça.</p></div>` :
+                          tipo === 'tipo' && nome === 'Velas' ? `<div class="note-box"><p>Veja também o <a href="#/cores-das-velas">Guia das cores das velas</a>.</p></div>` : '';
+            render(`
+                <p class="breadcrumb"><a href="#/rituais">Todos os rituais</a> › ${tipo === 'tipo' ? 'Tipo' : 'Finalidade'}</p>
+                <h1 class="page-title">${esc(nome)}</h1>
+                ${intro}
+                <p class="result-count">${lista.length} rituais${tipo === 'tipo' ? '' : ', incluindo os que também atendem esta finalidade'}</p>
+                <div class="card-list">${lista.map(r => ritualCard(r, tipo === 'tipo' ? null : nome)).join('')}</div>
+            `, nome, `#/${tipo}/${slug(nome)}`);
+        }
+
+        function pageRitual(id) {
+            const r = data.rituais.find(x => x.id === id);
+            if (!r) return pageNaoEncontrada();
+            const idx = data.rituais.indexOf(r), prev = data.rituais[idx - 1], next = data.rituais[idx + 1];
+            const relacionados = data.rituais.filter(x => x.id !== r.id).map(x => {
+                const comuns = x.materiais.filter(m => !elByName[m.elemento]?.utensilio && ritualUsa(r, m.elemento)).length;
+                return { x, score: comuns * 2 + (fins(x).some(c => fins(r).includes(c)) ? 1 : 0) + (x.secao !== r.secao ? 1 : 0), comuns };
+            }).filter(o => o.score >= 3).sort((a, b) => b.score - a.score || a.x.id - b.x.id).slice(0, 3);
+            let n = 0;
+            const bloco = (titulo, corpo, cls = '') => `<section class="block ${cls}"><h2><span class="n">${++n}</span>${titulo}</h2>${corpo}</section>`;
+            const banhoUrl = (data.banhos_url || '') + '#/banho/' + r.banho.id;
+            render(`
+                <p class="breadcrumb"><a href="#/tipo/${slug(r.secao)}">${esc(r.secao)}</a> › Ritual ${r.id} de ${data.rituais.length}</p>
+                <h1 class="page-title">${esc(r.titulo)}</h1>
+                <div class="tag-row" style="margin-bottom:8px;">
+                    <span class="tag-label">Finalidade principal</span>
+                    <a class="principal" href="#/finalidade/${slug(r.finalidade)}">${esc(r.finalidade)}</a>
+                </div>
+                ${(r.finalidades_extras || []).length ? `<div class="tag-row" style="margin-bottom:16px;"><span class="tag-label">Também indicado para</span>
+                    ${r.finalidades_extras.map(c => `<a href="#/finalidade/${slug(c)}">${esc(c)}</a>`).join('')}</div>` : '<div style="margin-bottom:16px;"></div>'}
+                <div class="facts facts-3">
+                    <div class="fact"><span class="k">Quando</span><span class="v">${esc(r.quando)}</span></div>
+                    <div class="fact"><span class="k">Duração</span><span class="v">${esc(r.duracao)}</span></div>
+                    <div class="fact"><span class="k">Onde ou direção</span><span class="v">${esc(r.direcao)}</span></div>
+                </div>
+                <div class="actions">
+                    <button class="btn" type="button" data-share>Compartilhar</button>
+                    <button class="btn" type="button" data-print>Imprimir</button>
+                    ${r.secao === 'Defumação' ? '<a class="btn" href="#/como-defumar">Como defumar</a>' : ''}
+                </div>
+                ${r.cuidados.length ? `<div class="alert" role="note"><strong>Cuidados com este ritual</strong><ul>${r.cuidados.map(c => `<li>${esc(c)}</li>`).join('')}</ul></div>` : ''}
+
+                ${bloco('Materiais', `<ul class="ingredients">${r.materiais.map(m => `<li><a class="herb-link" href="#/elemento/${slug(m.elemento)}">${esc(m.elemento)}</a><span class="qty">${esc(m.quantidade)}</span></li>`).join('')}</ul>`)}
+                ${bloco('Passo a passo', `<ol class="steps">${r.passos.map(p => `<li>${esc(p)}</li>`).join('')}</ol>`)}
+                ${bloco('Intenção', `<blockquote>“${esc(r.intencao)}”</blockquote><p class="dica">Diga em voz alta ou em pensamento, no começo e no fim do ritual.</p>`, 'intencao')}
+                ${bloco('Depois do ritual', `<p>${esc(r.descarte)}</p>`)}
+                ${bloco('Frequência', `<p>${esc(r.frequencia)}</p>`)}
+                ${bloco('Associação dos elementos neste guia', `<p>${esc(r.explicacao)}</p>`)}
+
+                <div class="note-box combo"><p><strong>Combina com o banho:</strong> <a href="${esc(banhoUrl)}" target="_blank" rel="noopener">${esc(r.banho.titulo)}</a>, do guia Banhos de Ervas.</p></div>
+                ${relacionados.length ? `<h3>Rituais relacionados</h3><div class="related-grid">${relacionados.map(({ x, comuns }) =>
+                    `<a href="#/ritual/${x.id}"><strong>${esc(x.titulo)}</strong><span>${comuns ? comuns + (comuns === 1 ? ' elemento em comum' : ' elementos em comum') + ' · ' : ''}${esc(x.secao)}</span></a>`).join('')}</div>` : ''}
+                ${avisoCurto()}
+                ${cta()}
+                <nav class="pager" aria-label="Outros rituais">
+                    ${prev ? `<a class="btn" href="#/ritual/${prev.id}">← ${esc(prev.titulo)}</a>` : '<span></span>'}
+                    ${next ? `<a class="btn" href="#/ritual/${next.id}">${esc(next.titulo)} →</a>` : ''}
+                </nav>
+            `, r.titulo, '#/tipo/' + slug(r.secao));
+            container.querySelector('[data-print]').addEventListener('click', () => window.print());
+            container.querySelector('[data-share]').addEventListener('click', async () => {
+                try {
+                    if (navigator.share) { await navigator.share({ title: r.titulo + ' — Rituais Caseiros', url: location.href }); return; }
+                    await navigator.clipboard.writeText(location.href); toast('Link copiado');
+                } catch (e) { if (e && e.name !== 'AbortError') toast('Não foi possível compartilhar. Copie o endereço da página.'); }
+            });
+        }
+
+        function pageTodos(q, elSlug) {
+            q = q || '';
+            $('#searchInput').value = q;
+            const elFiltro = elSlug ? data.elementos.find(e => slug(e.nome) === elSlug) : null;
+            if (elSlug && !elFiltro) return pageNaoEncontrada('Não encontramos esse elemento. <a href="#/elementos">Veja a Ficha dos Elementos</a>.');
+            const nq = norm(q);
+            const lista = data.rituais.filter(r => {
+                if (filtros.finalidade && !fins(r).includes(filtros.finalidade)) return false;
+                if (filtros.secao && r.secao !== filtros.secao) return false;
+                if (elFiltro && !ritualUsa(r, elFiltro.nome)) return false;
+                if (nq) {
+                    const hay = norm([r.titulo, r.secao, ...fins(r), r.intencao, r.explicacao, r.quando, ...r.materiais.map(m => m.elemento)].join(' '));
+                    if (!nq.split(/\s+/).every(t => hay.includes(t))) return false;
+                }
+                return true;
+            });
+            const chipGroup = (key, legend, opts) => `<fieldset><legend>${legend}</legend><div class="chips">
+                ${opts.map(o => `<button type="button" class="chip" data-f="${key}" data-v="${esc(o)}" aria-pressed="${filtros[key] === o}">${esc(o)}</button>`).join('')}</div></fieldset>`;
+            const elsEncontrados = nq ? data.elementos.filter(e => norm(e.nome).includes(nq)) : [];
+            const algum = filtros.finalidade || filtros.secao || q || elFiltro;
+            render(`
+                <h1 class="page-title">${elFiltro ? 'Rituais com ' + esc(elFiltro.nome) : q ? 'Busca: “' + esc(q) + '”' : 'Todos os rituais'}</h1>
+                ${elFiltro ? `<p class="breadcrumb"><a href="#/elemento/${slug(elFiltro.nome)}">Ver a ficha de ${esc(elFiltro.nome)}</a></p>` : ''}
+                <div class="filters">
+                    ${chipGroup('secao', 'Tipo', data.secoes)}
+                    ${chipGroup('finalidade', 'Finalidade', data.finalidades)}
+                </div>
+                ${elsEncontrados.length ? `<p>Fichas de elementos: ${elsEncontrados.map(e => `<a class="herb-link" href="#/elemento/${slug(e.nome)}">${esc(e.nome)}</a>`).join(', ')}</p>` : ''}
+                <p class="result-count" aria-live="polite">${lista.length} ${lista.length === 1 ? 'ritual encontrado' : 'rituais encontrados'}${algum ? ' · <a href="#/rituais" data-clear>limpar filtros</a>' : ''}</p>
+                <div class="card-list">${lista.map(r => ritualCard(r)).join('') || '<p>Nenhum ritual com esses critérios. Tente outra palavra ou limpe os filtros.</p>'}</div>
+            `, elFiltro ? 'Rituais com ' + elFiltro.nome : q ? 'Busca' : 'Todos os rituais', algum ? null : '#/rituais');
+            container.querySelectorAll('.chip').forEach(ch => ch.addEventListener('click', () => {
+                const k = ch.dataset.f, v = ch.dataset.v;
+                filtros[k] = filtros[k] === v ? null : v;
+                pageTodos(q, elSlug);
+                container.querySelector(`.chip[data-f="${k}"][data-v="${CSS.escape(v)}"]`)?.focus();
+            }));
+            container.querySelector('[data-clear]')?.addEventListener('click', e => {
+                e.preventDefault();
+                filtros.finalidade = filtros.secao = null; $('#searchInput').value = '';
+                if (location.hash === '#/rituais') pageTodos('', null); else location.hash = '#/rituais';
+            });
+        }
+
+        function pageElementos(abrir) {
+            const porGrupo = data.grupos.map(g => ({ g, itens: data.elementos.filter(e => e.grupo === g) })).filter(o => o.itens.length);
+            const ficha = e => {
+                const rel = data.rituais.filter(r => ritualUsa(r, e.nome));
+                return `
+                <details class="ficha" id="el-${slug(e.nome)}" ${abrir === slug(e.nome) ? 'open' : ''}>
+                    <summary>
+                        <div><h2>${esc(e.nome)}</h2><span class="sub">${esc(e.grupo)} · em ${rel.length} ${rel.length === 1 ? 'ritual' : 'rituais'}</span></div>
+                        <span class="sign" aria-hidden="true"></span>
+                    </summary>
+                    <div class="ficha-body">
+                        <p><strong>Associação na tradição:</strong> ${esc(e.associacao)}</p>
+                        <p><strong>Como é usado neste guia:</strong> ${esc(e.uso)}</p>
+                        <p><strong>Onde encontrar:</strong> ${esc(e.onde)}</p>
+                        <p><strong>Substituição aproximada:</strong> <em>${esc(e.substituicao)}</em></p>
+                        ${e.cuidado && !e.cuidado.startsWith('Nenhum') ? `<div class="alert" role="note"><strong>Cuidado</strong>${esc(e.cuidado)}</div>` : ''}
+                        ${e.banhos && data.banhos_url ? `<p style="font-size:0.9rem;">Também aparece no guia <a href="${esc(data.banhos_url)}#/erva/${esc(e.banhos)}" target="_blank" rel="noopener">Banhos de Ervas</a>.</p>` : ''}
+                        <div class="related">
+                            <p style="font-weight:500;margin-bottom:8px;color:var(--accent-rose-dark);">Este elemento aparece em ${rel.length} ${rel.length === 1 ? 'ritual' : 'rituais'}</p>
+                            <ul class="plain">${rel.map(r => `<li><a class="smart-link" href="#/ritual/${r.id}">${esc(r.titulo)}</a> <span class="cat">(${esc(r.secao)})</span></li>`).join('')}</ul>
+                            ${rel.length > 1 ? `<a class="btn" style="margin-top:12px;" href="#/rituais?elemento=${slug(e.nome)}">Ver os ${rel.length} rituais com ${esc(e.nome)}</a>` : ''}
+                        </div>
+                    </div>
+                </details>`;
+            };
+            render(`
+                <h1 class="page-title">Ficha dos Elementos</h1>
+                <p>Tudo o que é usado nos rituais deste guia: o que representa, onde encontrar, o que usar se faltar e os cuidados.</p>
+                ${avisoCurto()}
+                ${porGrupo.map(({ g, itens }) => `<h3>${esc(g)}</h3>${itens.map(ficha).join('')}`).join('')}
+            `, 'Ficha dos Elementos', '#/elementos');
+            if (abrir) {
+                const el = document.getElementById('el-' + abrir);
+                if (el) requestAnimationFrame(() => { el.scrollIntoView({ block: 'start' }); el.querySelector('summary').focus({ preventScroll: true }); });
+            }
+        }
+
+        function pageTenho() {
+            const marcaveis = data.elementos.filter(e => !e.utensilio);
+            const tenho = new Set(storageGet().filter(n => elByName[n]));
+            const faltam = r => r.materiais.filter(m => !elByName[m.elemento].utensilio && !tenho.has(m.elemento)).map(m => m.elemento);
+            const completos = [], quase = [];
+            if (tenho.size) data.rituais.forEach(r => { const f = faltam(r); if (!f.length) completos.push(r); else if (f.length === 1) quase.push({ r, f }); });
+            const faltaCard = ({ r, f }) => ritualCard(r).replace(/<\/a>\s*$/, `<p class="missing">Falta: ${f.map(x => esc(x) + (elByName[x].substituicao && !/^Não/.test(elByName[x].substituicao) ? ` (alternativa aproximada: ${esc(elByName[x].substituicao.replace(/\.$/, ''))})` : '')).join('<br>')}</p></a>`);
+            render(`
+                <h1 class="page-title">Tenho em casa</h1>
+                <p>Marque os elementos que você tem e veja os rituais que já dá para fazer. Utensílios comuns, como copo, pires, papel, água e moedas, já são considerados disponíveis. Sua seleção fica salva neste aparelho.</p>
+                <div class="filters">
+                    ${data.grupos.filter(g => marcaveis.some(e => e.grupo === g)).map(g => `<fieldset><legend>${esc(g)}</legend><div class="chips">
+                        ${marcaveis.filter(e => e.grupo === g).map(e => `<button type="button" class="chip" data-el="${esc(e.nome)}" aria-pressed="${tenho.has(e.nome)}">${esc(e.nome)}</button>`).join('')}
+                    </div></fieldset>`).join('')}
+                    ${tenho.size ? '<button type="button" class="btn" data-limpar>Limpar seleção</button>' : ''}
+                </div>
+                <div aria-live="polite">${!tenho.size ? '' : `
+                    <div class="result-group"><h2>Você pode fazer (${completos.length})</h2>
+                        ${completos.length ? `<div class="card-list">${completos.map(r => ritualCard(r)).join('')}</div>` : '<p>Ainda nenhum ritual completo com esses elementos.</p>'}</div>
+                    <div class="result-group"><h2>Falta só um elemento (${quase.length})</h2>
+                        <div class="card-list">${quase.map(faltaCard).join('') || '<p>Nenhum.</p>'}</div></div>`}
+                </div>
+            `, 'Tenho em casa', '#/tenho-em-casa');
+            container.querySelectorAll('[data-el]').forEach(ch => ch.addEventListener('click', () => {
+                const n = ch.dataset.el;
+                tenho.has(n) ? tenho.delete(n) : tenho.add(n);
+                storageSet([...tenho]);
+                const y = main.scrollTop; pageTenho(); main.scrollTop = y;
+                container.querySelector(`[data-el="${CSS.escape(n)}"]`)?.focus();
+            }));
+            container.querySelector('[data-limpar]')?.addEventListener('click', () => { storageSet([]); pageTenho(); });
+        }
+
+        function pageComoFazer() {
+            render(`
+                <h1 class="page-title">Como fazer um ritual</h1>
+                <p>O caminho completo, da escolha do ritual até o registro do que você sentiu. Cada ritual traz, além disso, os seus cuidados e a sua frequência.</p>
+                <ol class="journey">${data.como_fazer.map(p => `<li><h2>${esc(p.titulo)}</h2><p>${esc(p.texto)}</p>${(p.itens || []).length ? `<ul>${p.itens.map(i => `<li>${esc(i)}</li>`).join('')}</ul>` : ''}</li>`).join('')}</ol>
+                <div class="module-box" id="diario">
+                    <h3>Diário do ritual</h3>
+                    <p class="diario-cabecalho">Rituais Caseiros · Mundo Cigana Tarot</p>
+                    <p>Preencha logo depois do ritual e volte a ele nos dias seguintes.</p>
+                    <div class="actions"><button class="btn" type="button" data-print-diario>Imprimir o diário</button></div>
+                    <table class="diario"><tbody>${data.diario.map(q => `<tr><th scope="row">${esc(q)}</th><td></td></tr>`).join('')}</tbody></table>
+                </div>
+                ${suporte()}
+            `, 'Como fazer um ritual', '#/como-fazer');
+            container.querySelector('[data-print-diario]').addEventListener('click', () => {
+                document.body.classList.add('print-diario');
+                const limpar = () => { document.body.classList.remove('print-diario'); window.removeEventListener('afterprint', limpar); };
+                window.addEventListener('afterprint', limpar); window.print(); setTimeout(limpar, 1000);
+            });
+        }
+
+        function pageComoDefumar() {
+            const c = data.como_defumar;
+            render(`
+                <h1 class="page-title">Como defumar</h1>
+                <p>${esc(c.intro)}</p>
+                <div class="alert" role="note"><strong>Segurança em primeiro lugar</strong><ul>${c.seguranca.map(s => `<li>${esc(s)}</li>`).join('')}</ul></div>
+                <ol class="journey">${c.passos.map(p => `<li><h2>${esc(p.titulo)}</h2><p>${esc(p.texto)}</p></li>`).join('')}</ol>
+                <div class="module-box"><h3>A direção da fumaça</h3><ul class="rules">${data.fundamentos.regras.map(r => `<li><span class="badge">${esc(r.nivel)}</span><br>${esc(r.texto)}</li>`).join('')}</ul></div>
+                <p><a class="btn primary" href="#/tipo/defumacao">Ver as ${daSecao('Defumação').length} defumações</a></p>
+            `, 'Como defumar', '#/como-defumar');
+        }
+
+        function pageCores() {
+            render(`
+                <h1 class="page-title">Cores das velas</h1>
+                <p>Na tradição popular, a cor da vela direciona a intenção. Quando faltar a cor indicada, a vela branca serve para todas.</p>
+                <div class="color-grid">${data.cores_velas.map(c => `<div class="color-card"><span class="swatch" style="background:${esc(c.hex)}"></span><div><strong>${esc(c.cor)}</strong><p>${esc(c.texto)}</p></div></div>`).join('')}</div>
+                <div class="alert" role="note"><strong>Cuidado com o fogo</strong>Nunca deixe uma vela acesa sozinha, ao dormir ou perto de cortinas, papéis, crianças e pets.</div>
+                <p><a class="btn" href="#/tipo/velas">Ver os rituais com velas</a></p>
+            `, 'Cores das velas', '#/cores-das-velas');
+        }
+
+        function pageLua() {
+            render(`
+                <h1 class="page-title">Fases da lua e dias da semana</h1>
+                <p>Muitos rituais sugerem uma fase da lua ou um dia da semana. São sugestões da tradição: se não puder esperar, faça no dia em que precisar, com atenção e intenção.</p>
+                <h3>Fases da lua</h3>
+                <div class="color-grid">${data.luas.map(l => `<div class="color-card"><span class="lua lua-${slug(l.fase)}" aria-hidden="true"></span><div><strong>${esc(l.fase)}</strong><p>${esc(l.texto)}</p></div></div>`).join('')}</div>
+                <p class="aviso">Para saber a fase da lua de hoje, consulte um calendário lunar ou o aplicativo de clima do seu celular.</p>
+                <h3>Dias da semana</h3>
+                <ul class="rules">${data.dias_semana.map(d => `<li><strong>${esc(d.dia)}:</strong> ${esc(d.texto)}</li>`).join('')}</ul>
+            `, 'Fases da lua', '#/lua');
+        }
+
+        function pageGuia(titulo, itens, intro, href) {
+            render(`<h1 class="page-title">${esc(titulo)}</h1>${intro || ''}<ol class="guide-list">${itens.map(i => `<li><h2>${esc(i.titulo)}</h2><p>${esc(i.texto)}</p></li>`).join('')}</ol>`, titulo, href);
+        }
+
+        function pageGlossario() {
+            render(`<h1 class="page-title">Glossário</h1><p>${esc(data.glossario_intro)}</p>
+                <dl class="glossario">${data.glossario.map(g => `<dt>${esc(g.termo)}</dt><dd>${esc(g.texto)}</dd>`).join('')}</dl>`, 'Glossário', '#/glossario');
+        }
+
+        function pageSobre() {
+            const l = contatoLinks();
+            render(`<h1 class="page-title">Sobre</h1>
+                <div class="sobre-wrap">${data.sobre_foto ? `<img src="${esc(data.sobre_foto)}" alt="Maria, cartomante da Mundo Cigana Tarot, segurando um baralho cigano" width="240" height="320">` : ''}
+                    <div class="bio-box"><p class="nome">Maria</p><p class="papel">Cartomante · Mundo Cigana Tarot</p><p class="bio">${esc(data.sobre)}</p>
+                    ${l.insta ? `<p><a class="herb-link" href="${esc(l.insta)}" target="_blank" rel="noopener">${esc(l.handle)} no Instagram</a></p>` : ''}</div>
+                </div>
+                <h3>A perspectiva deste guia</h3>
+                <p>${esc(data.aviso_tradicao)}</p>
+                <p>${esc(data.etica)}</p>
+                ${data.banhos_url ? `<div class="note-box"><p>Este guia faz parte de uma série. Conheça também o guia <a href="${esc(data.banhos_url)}" target="_blank" rel="noopener">Banhos de Ervas</a>.</p></div>` : ''}
+                ${cta()}`, 'Sobre', '#/sobre');
+        }
+
+        function pageNaoEncontrada(msg) {
+            render(`<h1 class="page-title">Página não encontrada</h1><p>${msg || 'Este endereço não existe no guia.'} <a href="#/">Voltar ao início</a>.</p>`, 'Página não encontrada', null);
+        }
+
+        // ---------------------------------------------------------------- roteamento
+        function route(keepScroll) {
+            const raw = location.hash.replace(/^#\/?/, '');
+            const [path, qs] = raw.split('?');
+            const parts = path.split('/').filter(Boolean);
+            const params = new URLSearchParams(qs || '');
+            if (!keepScroll) main.scrollTop = 0;
+            if (parts[0] !== 'rituais') $('#searchInput').value = '';
+
+            if (!parts.length) pageInicio();
+            else if (parts[0] === 'ritual') pageRitual(Number(parts[1]));
+            else if (parts[0] === 'tipo') { const s = secaoBySlug(parts[1]); s ? pageLista('tipo', s) : pageNaoEncontrada(); }
+            else if (parts[0] === 'finalidade') { const f = finBySlug(parts[1]); f ? pageLista('finalidade', f) : pageNaoEncontrada(); }
+            else if (parts[0] === 'rituais') pageTodos(params.get('q'), params.get('elemento'));
+            else if (parts[0] === 'elementos') pageElementos();
+            else if (parts[0] === 'elemento') data.elementos.some(e => slug(e.nome) === parts[1]) ? pageElementos(parts[1]) : pageNaoEncontrada('Não encontramos esse elemento. <a href="#/elementos">Veja a Ficha dos Elementos</a>.');
+            else if (parts[0] === 'tenho-em-casa') pageTenho();
+            else if (parts[0] === 'como-fazer') pageComoFazer();
+            else if (parts[0] === 'como-defumar') pageComoDefumar();
+            else if (parts[0] === 'cores-das-velas') pageCores();
+            else if (parts[0] === 'lua') pageLua();
+            else if (parts[0] === 'seguranca') pageGuia('Segurança e Uso Responsável', data.seguranca, '<p>Leia com atenção antes de fazer qualquer ritual. Cada ritual e cada ficha de elemento também indicam os cuidados específicos.</p>', '#/seguranca');
+            else if (parts[0] === 'glossario') pageGlossario();
+            else if (parts[0] === 'sobre' && data.sobre) pageSobre();
+            else pageNaoEncontrada();
+
+            if (!keepScroll && document.activeElement !== $('#searchInput')) container.focus({ preventScroll: true });
+        }
+
+        window.addEventListener('hashchange', () => { if (data && $('#loginScreen').hidden && $('#navTree').innerHTML) route(false); });
+
+        fetch('data/content.json')
+            .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+            .then(json => { data = json; data.elementos.forEach(e => elByName[e.nome] = e); iniciarAcesso(); })
+            .catch(err => {
+                console.error('Erro ao carregar os dados:', err);
+                container.innerHTML = '<h1 class="page-title">Não foi possível carregar o guia</h1><p>Verifique sua conexão e atualize a página.</p>';
+            });
+
+        // ---------------------------------------------------------------- acesso (login)
+        const sessaoGet = () => { try { return JSON.parse(localStorage.getItem(SESSAO_KEY) || 'null'); } catch (e) { return null; } };
+        const sessaoSet = v => { try { v ? localStorage.setItem(SESSAO_KEY, JSON.stringify(v)) : localStorage.removeItem(SESSAO_KEY); } catch (e) {} };
+        async function chamarAcesso(payload) {
+            const r = await fetch(data.acesso.url, { method: 'POST', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify({ ...payload, produto: data.acesso.produto }) });
+            return r.json();
+        }
+        function iniciarAcesso() {
+            if (!(data.acesso || {}).url) { abrirGuia(null); return; }
+            const s = sessaoGet();
+            if (s && s.email && s.token) {
+                abrirGuia(s);
+                chamarAcesso({ acao: 'verificar', email: s.email, token: s.token })
+                    .then(res => { if (res && res.ok === false) { sessaoSet(null); mostrarLogin('Seu acesso precisa ser confirmado novamente. Entre com seu e-mail e senha.'); } })
+                    .catch(() => {});
+            } else mostrarLogin();
+        }
+        function mostrarLogin(msg) {
+            const c = data.contato || {};
+            const wa = m => c.whatsapp ? `https://wa.me/${String(c.whatsapp).replace(/\D/g, '')}?text=${encodeURIComponent(m)}` : '';
+            const compra = wa(data.acesso.mensagem_compra), senha = wa(data.acesso.mensagem_senha);
+            $('#loginLinks').innerHTML = (senha ? `<a href="${esc(senha)}" target="_blank" rel="noopener">Esqueci minha senha</a>` : '') +
+                (compra ? `<span>Ainda não tem acesso? <a href="${esc(compra)}" target="_blank" rel="noopener">Quero adquirir o guia</a></span>` : '');
+            $('#loginErro').textContent = msg || '';
+            $('#loginScreen').hidden = false;
+            ['#sidebar', '#mainScroll', '#menuBtn'].forEach(sel => { $(sel).setAttribute('aria-hidden', 'true'); $(sel).inert = true; });
+            setTimeout(() => $('#loginEmail').focus(), 50);
+        }
+        const MOTIVOS = {
+            nao_encontrado: 'Não encontramos esse e-mail. Confira se digitou igual ao que você usou na compra.',
+            senha: 'Senha incorreta. Tente novamente.',
+            inativo: 'Seu acesso está desativado. Fale com a Maria pelo WhatsApp.',
+            sem_produto: 'Seu acesso não inclui este guia. Fale com a Maria pelo WhatsApp para adquirir.',
+        };
+        $('#loginForm').addEventListener('submit', async e => {
+            e.preventDefault();
+            const email = $('#loginEmail').value.trim().toLowerCase(), senha = $('#loginSenha').value;
+            const erro = $('#loginErro'), btn = $('#loginBtn');
+            if (!email || !senha) { erro.textContent = 'Preencha o e-mail e a senha.'; return; }
+            btn.disabled = true; btn.textContent = 'Entrando…'; erro.textContent = '';
+            try {
+                const res = await chamarAcesso({ acao: 'login', email, senha });
+                if (res && res.ok) {
+                    const s = { email, token: res.token, nome: res.nome || '' };
+                    sessaoSet(s);
+                    $('#loginScreen').hidden = true;
+                    ['#sidebar', '#mainScroll', '#menuBtn'].forEach(sel => { $(sel).removeAttribute('aria-hidden'); $(sel).inert = false; });
+                    abrirGuia(s);
+                } else erro.textContent = MOTIVOS[res && res.motivo] || 'Não foi possível entrar. Tente novamente.';
+            } catch (err) {
+                erro.textContent = 'Sem conexão com o servidor. Verifique sua internet e tente de novo.';
+            } finally { btn.disabled = false; btn.textContent = 'Entrar'; }
+        });
+        function abrirGuia(sessao) {
+            buildSidebar();
+            const ub = $('#userBar');
+            if (sessao) {
+                ub.innerHTML = `<span>${sessao.nome ? 'Olá, ' + esc(sessao.nome) : esc(sessao.email)}</span><button type="button" id="sairBtn">Sair</button>`;
+                ub.hidden = false;
+                $('#sairBtn').addEventListener('click', () => { sessaoSet(null); location.reload(); });
+            }
+            const l = contatoLinks(), sc = $('#sidebarContact');
+            if (l.whats || l.insta) {
+                sc.innerHTML = (l.whats ? `<a class="btn primary" href="${esc(l.whats)}" target="_blank" rel="noopener">Agendar consulta</a>` : '') +
+                               (l.insta ? `<a class="btn" href="${esc(l.insta)}" target="_blank" rel="noopener">${esc(l.handle)}</a>` : '');
+                sc.hidden = false;
+            }
+            route(false);
+        }
+    })();
+    </script>
+</body>
+</html>
